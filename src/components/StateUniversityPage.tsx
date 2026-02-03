@@ -160,8 +160,8 @@ const colleges: College[] = [
       "Hostel: On-campus hostels with mess, Wi-Fi, sports facilities, library, and campus security."
   },
   {
-    name: "AIACTR",
-    image: "/am.webp",
+    name: "Ambedkar Institute of Advanced Communication Technologies & Research (AIACTR)",
+    image: "/am.jpg",
     description:
       "Ambedkar Institute of Advanced Communication Technologies & Research (AIACTR) is a government engineering college affiliated with GGSIPU.\n\n" +
       "Strong branches: Electronics & Communication Engineering.\n\n" +
@@ -173,20 +173,20 @@ const colleges: College[] = [
       "Hostel + mess fees: ~₹35,000–50,000 per year.\n\n" +
       "Hostel: Limited hostel facilities, mess, Wi-Fi, library, and sports areas."
   },
-  {
-    name: "MAIT",
-    image: "/mait.jpg",
-    description:
-      "Maharaja Agrasen Institute of Technology (MAIT) is one of the top private colleges under GGSIPU.\n\n" +
-      "Strong branches: Computer Science, IT, ECE, Mechanical Engineering.\n\n" +
-      "Admissions: Through JAC Delhi counseling based on JEE Main rank.\n\n" +
-      "Academics: Offers B.Tech and M.Tech programs.\n\n" +
-      "Placements: Good placement performance.\n" +
-      "Average package: ₹5–8 LPA.\n\n" +
-      "B.Tech tuition fees: ~₹1.4–1.8 lakh per year.\n" +
-      "Hostel + mess fees: ~₹90,000–1.3 lakh per year (private hostels nearby).\n\n" +
-      "Hostel: Limited on-campus hostel, tie-ups with private hostels, Wi-Fi, library, and sports facilities."
-  },
+  // {
+  //   name: "MAIT",
+  //   image: "/mait.jpg",
+  //   description:
+  //     "Maharaja Agrasen Institute of Technology (MAIT) is one of the top private colleges under GGSIPU.\n\n" +
+  //     "Strong branches: Computer Science, IT, ECE, Mechanical Engineering.\n\n" +
+  //     "Admissions: Through JAC Delhi counseling based on JEE Main rank.\n\n" +
+  //     "Academics: Offers B.Tech and M.Tech programs.\n\n" +
+  //     "Placements: Good placement performance.\n" +
+  //     "Average package: ₹5–8 LPA.\n\n" +
+  //     "B.Tech tuition fees: ~₹1.4–1.8 lakh per year.\n" +
+  //     "Hostel + mess fees: ~₹90,000–1.3 lakh per year (private hostels nearby).\n\n" +
+  //     "Hostel: Limited on-campus hostel, tie-ups with private hostels, Wi-Fi, library, and sports facilities."
+  // },
 ];
 
 const Rajasthan: College[] = [

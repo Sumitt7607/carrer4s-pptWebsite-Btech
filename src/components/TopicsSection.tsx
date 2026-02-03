@@ -29,11 +29,11 @@ const topics = [
     title: "Types of Universities",
     description: "Government, Private, Deemed & Autonomous",
   },
-  {
-    icon: MapPin,
-    title: "State-wise Universities",
-    description: "Best engineering colleges across India",
-  },
+  // {
+  //   icon: MapPin,
+  //   title: "State-wise Universities",
+  //   description: "Best engineering colleges across India",
+  // },
     {
     icon: HelpCircle,
     title: "state and central counseling in india ",

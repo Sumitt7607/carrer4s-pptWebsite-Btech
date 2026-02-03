@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { MythsSection } from "@/components/MythsSection";
 import HeroSection from "@/components/HeroSection";
 import TopicsSection from "@/components/TopicsSection";
+import AdmissionServicesSection from "@/components/AdmissionServicesSection";
 import { 
   GraduationCap, 
   CheckCircle2, 
@@ -26,7 +27,7 @@ import AnimatedBackground from "@/components/AnimatedBackground";
 import { Testimonial } from "@/components/TestimonialCard";
 import { TestimonialsCarousel } from "@/components/TestimonialsCarousel";
 import { DocumentationSection } from "@/components/DocumentationSection";
-import { AdmissionProcessSection } from "@/components/AdmissionProcessSection";
+import  AdmissionProcessSection  from "@/components/AdmissionProcessSection";
 import { CommonMistakesSection } from "@/components/CommonMistakesSection";
 import { CareersSection } from "@/components/CareersSection";
 import { FakeAlertSection } from "@/components/FakeAlertSection";
@@ -306,7 +307,9 @@ const BTech = () => {
       <CommonMistakesSection/>
       <FakeAlertSection/>
       <MythsSection/>
+          <AdmissionServicesSection/>
       <TestimonialsCarousel />
+  
       <WhyChooseUs/>
       <Footer />
     </div>

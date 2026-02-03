@@ -12,6 +12,7 @@ const documents = [
   { icon: FileCheck, title: "Category Certificate", desc: "If applicable (SC/ST/OBC)" },
   { icon: GraduationCap, title: "School Leaving", desc: "Transfer/Migration certificate" },
   { icon: FileText, title: "Income Certificate", desc: "For fee concession claims" },
+
 ];
 
 const DocumentCard = ({ doc, index }: { doc: typeof documents[0]; index: number }) => {

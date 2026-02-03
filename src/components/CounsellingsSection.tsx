@@ -8,23 +8,54 @@ const centralCounsellings = [
   { name: "CSAB", fullName: "Central Seat Allocation Board", colleges: "NITs, IIITs, GFTIs", rounds: "Special Round" },
   // { name: "JAC Delhi", fullName: "Joint Admission Counselling", colleges: "DTU, NSUT, IIITD, IGDTUW", rounds: "3 Rounds" },
 ];
-
 const stateCounsellings = [
-  { state: "Delhi", name: "JEE Main / JoSAA / JAC Delhi", colleges: "DTU, NSUT, IIIT-D & Other Colleges" },
+  {
+    state: "Delhi",
+    name: "JAC Delhi Counselling",
+    colleges: "DTU, NSUT,Ipu, IIIT-D & Other Delhi Colleges",
+  },
 
-  { state: "Haryana", name: "JEE Main / HSTES Counseling", colleges: "State Govt. & Private Colleges" },
+  {
+    state: "Haryana",
+    name: "HSTES Counselling",
+    colleges: "State Government & Private Colleges in Haryana",
+  },
 
-  { state: "Tamil Nadu", name: "TNEA / VITEEE / SRMJEEE", colleges: "Anna University & Private Universities" },
+  {
+    state: "Maharashtra",
+    name: "MHT-CET Counselling (CAP – Centralized Admission Process)",
+    colleges: "Government, Aided & Private Engineering Colleges in Maharashtra",
+  },
 
-  { state: "Uttar Pradesh", name: "JEE Main / AKTU Counseling", colleges: "AKTU Affiliated Colleges" },
+  {
+    state: "Uttar Pradesh",
+    name: "AKTU Counselling",
+    colleges: "AKTU Affiliated Government & Private Colleges",
+  },
 
-  { state: "Karnataka", name: "KCET / COMEDK / MET", colleges: "State Govt. & Private Colleges" },
+  {
+    state: "Karnataka",
+    name: "KCET / COMEDK Counselling",
+    colleges: "State Government & Private Colleges in Karnataka",
+  },
 
-  { state: "Rajasthan", name: "JEE Main / REAP Counseling", colleges: "RTU & Other State Colleges" },
+  {
+    state: "Rajasthan",
+    name: "REAP Counselling",
+    colleges: "RTU & Other State Engineering Colleges in Rajasthan",
+  },
 
-  { state: "Uttarakhand", name: "JEE Main / UTU Counseling", colleges: "State Govt. & Private Colleges" },
+  {
+    state: "Uttarakhand",
+    name: "UTU Counselling",
+    colleges: "State Government & Private Colleges in Uttarakhand",
+  },
 
-  { state: "Madhya Pradesh", name: "JEE Main / MP DTE Counseling", colleges: "State Govt. & Private Colleges" },
+  {
+    state: "Madhya Pradesh",
+    name: "MP DTE Counselling",
+    colleges: "State Government & Private Colleges in Madhya Pradesh",
+  },
 ];
 
 

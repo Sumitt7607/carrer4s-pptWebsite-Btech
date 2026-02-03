@@ -52,7 +52,7 @@ const WhyChooseUs = () => {
             Why Career 4s?
           </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-            Why <span className="text-gradient-saffron">Choose Us</span>
+            Why <span className="text-gradient-saffron">Career4s?</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
             Discover the advantages that set us apart and make your engineering
