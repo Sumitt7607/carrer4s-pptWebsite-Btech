@@ -241,7 +241,7 @@ const AdmissionProcessSection = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8 }}
-            className="text-gray-600 mt-6 text-lg max-w-2xl mx-auto"
+            className="text--600 mt-6 text-lg max-w-2xl mx-auto"
           >
             Choose your pathway to success. We offer multiple admission routes tailored to your unique profile and aspirations.
           </motion.p>
