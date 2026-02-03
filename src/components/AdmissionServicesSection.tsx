@@ -42,6 +42,7 @@ const services = [
       "In-depth career counseling & profile evaluation",
       "Advanced college & branch shortlisting (multiple options)",
       "Cutoff analysis & admission probability mapping",
+       "20-30 Zoom sessions.",
       "Choice filling strategy for counseling rounds",
       "Application form filling (up to 10–15 colleges)",
       "Priority document verification & formatting",
@@ -64,6 +65,7 @@ const services = [
     features: [
       "1-on-1 senior counselor & personal admission manager",
       "Detailed psychometric & aptitude assessment",
+     
       "Highly personalized college & branch mapping",
       "Rank-wise & budget-wise admission strategy",
       "Unlimited college applications & form filling",

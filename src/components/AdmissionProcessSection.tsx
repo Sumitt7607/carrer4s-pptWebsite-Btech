@@ -226,7 +226,7 @@ const AdmissionProcessSection = () => {
             }}
             style={{ backgroundSize: "200% 200%" }}
           >
-            Our Admission Process
+           Admission Process
           </motion.h2>
           
           {/* Animated underline */}
