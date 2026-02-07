@@ -7,286 +7,346 @@ interface College {
 }
 
 const colleges: College[] = [
-  {
-    name: "VIT Vellore",
-    image: "/vit.webp",
-    description:
-      "VIT Vellore is one of India’s top private engineering universities, known for strong placements, modern infrastructure, and global exposure.\n\n" +
-      "Strong branches: CSE, IT, AI, Data Science, ECE, Mechanical Engineering.\n\n" +
-      "Admissions: Through VITEEE entrance exam.\n\n" +
-      "Academics: Offers B.Tech, M.Tech, MSc, MBA, and PhD programs.\n\n" +
-      "Placements: Excellent placement record.\n" +
-      "Average package: ₹8–10 LPA.\n" +
-      "Highest packages: ₹60+ LPA.\n" +
-      "Top recruiters: Google, Microsoft, Amazon, Deloitte, Intel.\n\n" +
-      "B.Tech tuition fees: ~₹2.0–4.5 lakh per year (branch-based).\n" +
-      "Hostel + mess fees: ~₹1.0–1.3 lakh per year.\n\n" +
-      "Hostel: Fully residential campus with modern hostels, Wi-Fi, gyms, sports complexes, library, and medical center."
-  },
-  {
-    name: "Amity University, Noida",
-    image: "/amity.webp",
-    description:
-      "Amity University Noida offers a wide range of B.Tech programs with industry-focused curriculum and strong corporate connections.\n\n" +
-      "Strong branches: CSE, AI, IT, ECE, Mechanical Engineering.\n\n" +
-      "Admissions: Through Amity JEE / CUET / Direct admission.\n\n" +
-      "Academics: B.Tech, M.Tech, MBA, and PhD programs.\n\n" +
-      "Placements: Good placement support.\n" +
-      "Average package: ₹5–7 LPA.\n" +
-      "Top recruiters: Accenture, TCS, Cognizant, Amazon, Wipro.\n\n" +
-      "B.Tech tuition fees: ~₹2.5–3.5 lakh per year.\n" +
-      "Hostel + mess fees: ~₹1.2–1.5 lakh per year.\n\n" +
-      "Hostel: On-campus hostels with mess, Wi-Fi, sports facilities, gyms, and medical center."
-  },
-  {
-    name: "SRM Institute of Science & Technology",
-    image: "/srm.jpg",
-    description:
-      "SRM University is known for its large campus, diverse B.Tech specializations, and strong industry exposure.\n\n" +
-      "Strong branches: CSE, AI, IT, ECE, Biotechnology, Mechanical Engineering.\n\n" +
-      "Admissions: Through SRMJEEE entrance exam.\n\n" +
-      "Academics: B.Tech, M.Tech, MBA, MSc, and PhD programs.\n\n" +
-      "Placements: Very good placement performance.\n" +
-      "Average package: ₹6–8 LPA.\n" +
-      "Highest packages: ₹50+ LPA.\n" +
-      "Top recruiters: Amazon, Microsoft, Samsung, TCS, Cognizant.\n\n" +
-      "B.Tech tuition fees: ~₹2.5–4.0 lakh per year.\n" +
-      "Hostel + mess fees: ~₹1.1–1.4 lakh per year.\n\n" +
-      "Hostel: Fully residential campus with modern hostels, Wi-Fi, sports complexes, library, and hospital."
-  },
-  {
-    name: "Manipal Academy of Higher Education",
-    image: "/manipal.jpg",
-    description:
-      "Manipal University provides high-quality engineering education with excellent campus life and strong alumni network.\n\n" +
-      "Strong branches: CSE, IT, ECE, Mechanical, Biomedical Engineering.\n\n" +
-      "Admissions: Through MET (Manipal Entrance Test).\n\n" +
-      "Academics: B.Tech, M.Tech, MSc, MBA, and PhD programs.\n\n" +
-      "Placements: Strong placement record.\n" +
-      "Average package: ₹7–9 LPA.\n" +
-      "Top recruiters: Microsoft, Amazon, Goldman Sachs, Deloitte.\n\n" +
-      "B.Tech tuition fees: ~₹3.0–4.5 lakh per year.\n" +
-      "Hostel + mess fees: ~₹1.0–1.3 lakh per year.\n\n" +
-      "Hostel: Fully residential campus with modern hostels, sports facilities, gyms, hospital, and Wi-Fi."
-  },
-  {
-    name: "Lovely Professional University",
-    image: "/lpu.jpg",
-    description:
-      "LPU is one of the largest private universities in India offering diverse B.Tech programs and industry-oriented training.\n\n" +
-      "Strong branches: CSE, IT, AI, ECE, Mechanical Engineering.\n\n" +
-      "Admissions: Through LPUNEST / CUET.\n\n" +
-      "Academics: B.Tech, M.Tech, MBA, and PhD programs.\n\n" +
-      "Placements: Improving placement trends.\n" +
-      "Average package: ₹4–6 LPA.\n" +
-      "Top recruiters: Cognizant, TCS, Capgemini, Infosys.\n\n" +
-      "B.Tech tuition fees: ~₹1.8–3.0 lakh per year.\n" +
-      "Hostel + mess fees: ~₹90,000–1.2 lakh per year.\n\n" +
-      "Hostel: Large residential campus with hostels, Wi-Fi, sports complexes, gyms, and shopping areas."
-  },
-  {
-    name: "Shiv Nadar University",
-    image: "/shiv.jpg",
-    description:
-      "Shiv Nadar University focuses on research-driven education and strong academic rigor.\n\n" +
-      "Strong branches: CSE, ECE, Mechanical Engineering.\n\n" +
-      "Admissions: Through SNUCEE / CUET.\n\n" +
-      "Academics: B.Tech, M.Tech, MSc, MBA, and PhD programs.\n\n" +
-      "Placements: Good placement performance.\n" +
-      "Average package: ₹6–9 LPA.\n\n" +
-      "B.Tech tuition fees: ~₹3.5–4.5 lakh per year.\n" +
-      "Hostel + mess fees: ~₹1.2–1.5 lakh per year.\n\n" +
-      "Hostel: Fully residential campus with modern hostels, Wi-Fi, sports facilities, library, and medical unit."
-  },
-  {
-    name: "Bharti Vidyapeeth",
-    image: "/bhjar.webp",
-    description:
-      "Bharti Vidyapeeth is a deemed university offering quality technical education with good faculty support.\n\n" +
-      "Strong branches: CSE, IT, ECE, Mechanical Engineering.\n\n" +
-      "Admissions: Through BVP CET.\n\n" +
-      "Academics: B.Tech, M.Tech, MBA, and PhD programs.\n\n" +
-      "Placements: Moderate placement record.\n" +
-      "Average package: ₹4–6 LPA.\n\n" +
-      "B.Tech tuition fees: ~₹1.8–2.5 lakh per year.\n" +
-      "Hostel + mess fees: ~₹80,000–1.1 lakh per year.\n\n" +
-      "Hostel: On-campus hostels with mess, Wi-Fi, sports courts, and medical center."
-  },
-  {
-    name: "Amrita University",
-    image: "/amrita.jpg",
-    description:
-      "Amrita University is well known for discipline, research culture, and strong placements.\n\n" +
-      "Strong branches: CSE, AI, ECE, Mechanical Engineering.\n\n" +
-      "Admissions: Through AEEE entrance exam.\n\n" +
-      "Academics: B.Tech, M.Tech, MBA, MSc, and PhD programs.\n\n" +
-      "Placements: Very good placement record.\n" +
-      "Average package: ₹7–9 LPA.\n\n" +
-      "B.Tech tuition fees: ~₹2.0–3.5 lakh per year.\n" +
-      "Hostel + mess fees: ~₹1.0–1.3 lakh per year.\n\n" +
-      "Hostel: Fully residential campus with modern hostels, Wi-Fi, sports facilities, library, and hospital."
-  },
-  {
-    name: "Thapar University",
-    image: "/thapar.jpg",
-    description:
-      "Thapar Institute of Engineering & Technology is among India’s top private engineering colleges.\n\n" +
-      "Strong branches: CSE, ECE, Mechanical Engineering.\n\n" +
-      "Admissions: Through JEE Main.\n\n" +
-      "Academics: B.Tech, M.Tech, MBA, and PhD programs.\n\n" +
-      "Placements: Excellent placement performance.\n" +
-      "Average package: ₹10–12 LPA.\n\n" +
-      "B.Tech tuition fees: ~₹3.5–4.5 lakh per year.\n" +
-      "Hostel + mess fees: ~₹1.0–1.3 lakh per year.\n\n" +
-      "Hostel: Fully residential campus with hostels, Wi-Fi, sports complexes, library, and hospital."
-  },
-  {
-    name: "Kalinga University",
-    image: "/kalinga.jpg",
-    description:
-      "Kalinga University offers emerging B.Tech programs with focus on innovation and industry readiness.\n\n" +
-      "Strong branches: CSE, IT, ECE.\n\n" +
-      "Admissions: Through CUET / University entrance.\n\n" +
-      "Academics: B.Tech, M.Tech, MBA, and PhD programs.\n\n" +
-      "Placements: Growing placement ecosystem.\n" +
-      "Average package: ₹3.5–6 LPA.\n\n" +
-      "B.Tech tuition fees: ~₹1.5–2.5 lakh per year.\n" +
-      "Hostel + mess fees: ~₹80,000–1.1 lakh per year.\n\n" +
-      "Hostel: Residential campus with hostels, mess, Wi-Fi, sports facilities, and library."
-  },
+{
+  name: "VIT Vellore",
+  image: "/vit.webp",
+  description:
+    "VIT Vellore is a large private engineering university known for strong academic systems, disciplined evaluation, and very high placement volume, especially in IT services.\n\n" +
+    "Branches: Computer Science & Engineering, Information Technology, Artificial Intelligence, Data Science, Electronics & Communication Engineering, Mechanical Engineering.\n\n" +
+    "Admission (2025): Through VITEEE entrance examination (rank-based category system).\n\n" +
+    "B.Tech Fees (2025):\n" +
+    "• Category 1 (Top ranks): ~₹2.0 lakh per year\n" +
+    "• Category 2–3: ~₹3.0–3.5 lakh per year\n" +
+    "• Category 4–5: ~₹4.0–4.5 lakh per year\n\n" +
+    "Hostel + Mess Fees: ~₹1.0–1.3 lakh per year (block & room dependent).\n\n" +
+    "Placements (2024–25):\n" +
+    "• Overall average package: ~₹4.8–5.8 LPA\n" +
+    "• CSE / IT average: ~₹6.0–7.0 LPA\n" +
+    "• Median package: ~₹4.5–5.0 LPA\n" +
+    "• Highest package: ~₹55–60 LPA (very few international/off-campus offers)\n\n" +
+    "Top Recruiters: TCS, Infosys, Accenture, Cognizant, Amazon (limited roles), Microsoft (very limited).\n\n" +
+    "Campus Facilities: Very large fully residential campus with hostels, Wi-Fi, labs, gyms, sports complexes, central library, and medical center.",
+},
+
+
+{
+  name: "Amity University, Noida",
+  image: "/amity.webp",
+  description:
+    "Amity University, Noida is a large private university offering B.Tech programs with wide branch availability and strong exposure to mass-recruiter hiring.\n\n" +
+    "Branches: Computer Science & Engineering, Artificial Intelligence, Information Technology, Electronics & Communication Engineering, Mechanical Engineering.\n\n" +
+    "Admission (2025): Through Amity JEE / CUET / Board merit-based direct admission.\n\n" +
+    "B.Tech Fees (2025):\n" +
+    "• CSE / AI / IT: ~₹3.0–3.5 lakh per year\n" +
+    "• Core branches (ECE / Mechanical): ~₹2.5–3.0 lakh per year\n\n" +
+    "Hostel + Mess Fees: ~₹1.2–1.5 lakh per year.\n\n" +
+    "Placements (2024–25):\n" +
+    "• Overall average package: ~₹3.8–4.5 LPA\n" +
+    "• CSE / IT average: ~₹4.8–5.8 LPA\n" +
+    "• Median package: ~₹4.0 LPA\n" +
+    "• Highest package: ~₹25–30 LPA (very few, mostly off-campus / niche roles)\n\n" +
+    "Top Recruiters: TCS, Cognizant, Accenture, Infosys, Wipro (majority mass hiring).\n\n" +
+    "Campus Facilities: Very large urban campus with hostels, Wi-Fi, labs, sports facilities, gyms, central library, and medical center.",
+},
+
+
+{
+  name: "SRM Institute of Science & Technology",
+  image: "/srm.jpg",
+  description:
+    "SRM Institute of Science & Technology (SRMIST), Kattankulathur is a large private university offering B.Tech programs with strong intake capacity and mass-recruiter-driven placements.\n\n" +
+    "Branches: Computer Science & Engineering, Artificial Intelligence, Information Technology, Electronics & Communication Engineering, Biotechnology, Mechanical Engineering.\n\n" +
+    "Admission (2025): Through SRMJEEE entrance examination.\n\n" +
+    "B.Tech Fees (2025):\n" +
+    "• CSE / AI / IT (top slabs): ~₹3.5–4.0 lakh per year\n" +
+    "• Core branches (ECE / Mech / BioTech): ~₹2.5–3.2 lakh per year\n\n" +
+    "Hostel + Mess Fees: ~₹1.1–1.4 lakh per year (block & room dependent).\n\n" +
+    "Placements (2024–25):\n" +
+    "• Overall average package: ~₹4.5–5.2 LPA\n" +
+    "• CSE / IT average: ~₹5.5–6.5 LPA\n" +
+    "• Median package: ~₹4.5 LPA\n" +
+    "• Highest package: ~₹45–50 LPA (very rare, mostly off-campus/international)\n\n" +
+    "Top Recruiters: TCS, Cognizant, Accenture, Infosys, Capgemini, Amazon (limited roles).\n\n" +
+    "Campus Facilities: Very large residential campus with hostels, Wi-Fi, labs, sports complexes, central library, and multi-specialty hospital.",
+},
+
+{
+  name: "Manipal Academy of Higher Education",
+  image: "/manipal.jpg",
+  description:
+    "Manipal Academy of Higher Education (MAHE), Manipal is a reputed private university known for strong academics, global exposure, and a well-established alumni network.\n\n" +
+    "Branches: Computer Science & Engineering, Information Technology, Electronics & Communication Engineering, Mechanical Engineering, Electrical Engineering, Biomedical Engineering.\n\n" +
+    "Admission (2025): Through MET (Manipal Entrance Test).\n\n" +
+    "B.Tech Fees (2025):\n" +
+    "• CSE / IT / AI-related branches: ~₹4.0–4.5 lakh per year\n" +
+    "• Core branches (ECE / Mech / EE / Biomedical): ~₹3.0–3.6 lakh per year\n\n" +
+    "Hostel + Mess Fees: ~₹1.0–1.3 lakh per year (room & block dependent).\n\n" +
+    "Placements (2024–25):\n" +
+    "• Overall average package: ~₹5.5–6.5 LPA\n" +
+    "• CSE / IT average: ~₹7–8 LPA\n" +
+    "• Median package: ~₹5.5 LPA\n" +
+    "• Highest package: ~₹45–50 LPA (very limited, mostly off-campus / international)\n\n" +
+    "Top Recruiters: Microsoft, Amazon, Goldman Sachs, Deloitte, Nvidia, Qualcomm.\n\n" +
+    "Campus Facilities: Fully residential campus with modern hostels, Wi-Fi, advanced labs, sports facilities, gyms, hospital, and central library.",
+},
+
+{
+  name: "Lovely Professional University",
+  image: "/lpu.jpg",
+  description:
+    "Lovely Professional University (LPU), Phagwara is a large private university offering B.Tech programs with wide branch availability and strong exposure to mass-recruiter hiring.\n\n" +
+    "Branches: Computer Science & Engineering, Information Technology, Artificial Intelligence, Electronics & Communication Engineering, Mechanical Engineering.\n\n" +
+    "Admission (2025): Through LPUNEST / CUET / Board merit-based direct admission.\n\n" +
+    "B.Tech Fees (2025):\n" +
+    "• CSE / AI / IT: ~₹2.5–3.0 lakh per year\n" +
+    "• Core branches (ECE / Mechanical): ~₹1.8–2.3 lakh per year\n\n" +
+    "Hostel + Mess Fees: ~₹90,000–1.2 lakh per year (room & block dependent).\n\n" +
+    "Placements (2024–25):\n" +
+    "• Overall average package: ~₹3.5–4.2 LPA\n" +
+    "• CSE / IT average: ~₹4.5–5.2 LPA\n" +
+    "• Median package: ~₹3.6 LPA\n" +
+    "• Highest package: ~₹28–30 LPA (very few off-campus / international offers)\n\n" +
+    "Top Recruiters: TCS, Cognizant, Capgemini, Infosys, Accenture (mostly mass hiring).\n\n" +
+    "Campus Facilities: Very large residential campus with hostels, Wi-Fi, labs, sports complexes, gyms, shopping areas, and medical facilities.",
+},
+
+
+{
+  name: "Shiv Nadar University",
+  image: "/shiv.jpg",
+  description:
+    "Shiv Nadar University (SNU), Greater Noida is a research-focused private university emphasizing academic rigor, interdisciplinary learning, and higher studies orientation.\n\n" +
+    "Branches: Computer Science & Engineering, Electronics & Communication Engineering, Mechanical Engineering, Artificial Intelligence, Data Science.\n\n" +
+    "Admission (2025): Through SNUCEE / CUET / Board merit-based selection.\n\n" +
+    "B.Tech Fees (2025): ~₹3.8–4.5 lakh per year (branch-dependent).\n\n" +
+    "Hostel + Mess Fees: ~₹1.2–1.5 lakh per year.\n\n" +
+    "Placements (2024–25):\n" +
+    "• Overall average package: ~₹4.5–5.5 LPA\n" +
+    "• CSE / AI average: ~₹5.5–6.5 LPA\n" +
+    "• Median package: ~₹4.5 LPA\n" +
+    "• Highest package: ~₹30–35 LPA (very few international / niche offers)\n\n" +
+    "Campus Facilities: Fully residential campus with modern hostels, Wi-Fi, central library, research labs, sports facilities, and medical unit.",
+},
+
+
+{
+  name: "Bharati Vidyapeeth",
+  image: "/bhjar.webp",
+  description:
+    "Bharati Vidyapeeth (Deemed to be University) offers B.Tech programs with a traditional academic structure and moderate industry exposure.\n\n" +
+    "Branches: Computer Science & Engineering, Information Technology, Electronics & Communication Engineering, Mechanical Engineering.\n\n" +
+    "Admission (2025): Through BVP CET (Bharati Vidyapeeth Common Entrance Test).\n\n" +
+    "B.Tech Fees (2025):\n" +
+    "• CSE / IT: ~₹2.2–2.5 lakh per year\n" +
+    "• Core branches (ECE / Mechanical): ~₹1.8–2.1 lakh per year\n\n" +
+    "Hostel + Mess Fees: ~₹70,000–1.0 lakh per year (campus & room dependent).\n\n" +
+    "Placements (2024–25):\n" +
+    "• Overall average package: ~₹3.5–4.5 LPA\n" +
+    "• CSE / IT average: ~₹4.5–5.5 LPA\n" +
+    "• Highest package: ~₹14–16 LPA (very limited cases)\n\n" +
+    "Campus Facilities: Residential campuses with hostels, basic sports facilities, libraries, labs, and medical support.",
+},
+
+
+{
+  name: "Amrita Vishwa Vidyapeetham",
+  image: "/amrita.jpg",
+  description:
+    "Amrita Vishwa Vidyapeetham is a deemed-to-be university known for disciplined academics, research focus, and stable core engineering outcomes.\n\n" +
+    "Branches: Computer Science & Engineering, Artificial Intelligence, Electronics & Communication Engineering, Mechanical Engineering, Electrical Engineering.\n\n" +
+    "Admission (2025): Through AEEE (Amrita Entrance Examination – Engineering) / JEE Main (limited seats).\n\n" +
+    "B.Tech Fees (2025):\n" +
+    "• CSE / AI (Top campuses): ~₹3.5–4.5 lakh per year\n" +
+    "• Core branches / other campuses: ~₹2.0–3.0 lakh per year\n\n" +
+    "Hostel + Mess Fees: ~₹90,000–1.2 lakh per year (campus & room-type dependent).\n\n" +
+    "Placements (2024–25):\n" +
+    "• Overall average package: ~₹4.5–6 LPA\n" +
+    "• CSE top-campus average: ~₹6–7 LPA\n" +
+    "• Highest domestic package: ~₹40 LPA (very few students)\n\n" +
+    "Campus Facilities: Fully residential campuses with hostels, Wi-Fi, labs, libraries, sports facilities, and multi-specialty hospitals.",
+},
+
+{
+  name: "Thapar Institute of Engineering & Technology",
+  image: "/thapar.jpg",
+  description:
+    "Thapar Institute of Engineering & Technology (TIET), Patiala is a top-tier private engineering institution known for strong academics, competitive peer quality, and consistent core & tech placements.\n\n" +
+    "Branches: Computer Science & Engineering, Electronics & Communication Engineering, Mechanical Engineering, Electrical Engineering, Civil Engineering.\n\n" +
+    "Admission : Through JEE Main–based counselling (rank-dependent cutoffs).\n\n" +
+    "B.Tech Fees : ~₹3.8–4.5 lakh per year (branch-dependent).\n\n" +
+    "Hostel + Mess Fees: ~₹1.0–1.3 lakh per year.\n\n" +
+    "Placements (2024–25):\n" +
+    "• Overall average package: ~₹6.5–7.5 LPA\n" +
+    "• CSE average: ~₹9–10 LPA\n" +
+    "• Median package: ~₹6.0–6.5 LPA\n" +
+    "• Highest package: ~₹45–50 LPA (very few, mostly international/off-campus)\n\n" +
+    "Campus Facilities: Fully residential campus with hostels, Wi-Fi, sports complexes, central library, advanced labs, and on-campus medical facilities.",
+},
+
+{
+  name: "Kalinga University",
+  image: "/kalinga.jpg",
+  description:
+    "Kalinga University, Raipur is a private university offering B.Tech programs with a focus on basic engineering education and regional placement opportunities.\n\n" +
+    "Branches: Computer Science & Engineering, Information Technology, Electronics & Communication Engineering.\n\n" +
+    "Admission (2025): Through CUET / University-level entrance / Direct admission.\n\n" +
+    "B.Tech Fees (2025): ~₹1.6–2.3 lakh per year (branch-dependent).\n\n" +
+    "Hostel + Mess Fees: ~₹75,000–1.0 lakh per year.\n\n" +
+    "Placements (2024–25):\n" +
+    "• Overall average package: ~₹2.8–3.5 LPA\n" +
+    "• CSE / IT average: ~₹3.5–4.2 LPA\n" +
+    "• Median package: ~₹3.0 LPA\n" +
+    "• Highest package: ~₹8–10 LPA (very few cases)\n\n" +
+    "Campus Facilities: Residential campus with hostels, Wi-Fi, basic labs, library, sports facilities, and campus security.",
+},
+
+
 ];
 const Ipu: College[] = [
 {
   name: "Maharaja Agrasen Institute of Technology (MAIT)",
   image: "https://cse.mait.ac.in/images/mait-1.jpg",
   description:
-    "Maharaja Agrasen Institute of Technology (MAIT) is one of the most popular private engineering colleges under IPU, known for strong placements and a vibrant coding culture.\n\n" +
-    "Strong branches: Computer Science Engineering (CSE), Information Technology (IT), Artificial Intelligence & Machine Learning (AI-ML), Electronics & Communication Engineering (ECE).\n\n" +
-    "Admissions: Through JEE Main rank via IPU counselling.\n\n" +
-    "Academics: Industry-oriented curriculum, active coding clubs, hackathons, and internship-driven learning.\n\n" +
-    "Placements: Consistently strong placement performance.\n" +
-    "Average package: ₹6–8 LPA (CSE/IT).\n" +
-    "Highest packages: ₹45+ LPA.\n" +
-    "Top recruiters: Amazon, Microsoft, Deloitte, Infosys, Accenture, TCS, Capgemini.\n\n" +
-    "B.Tech tuition fees: ~₹1.7–1.9 lakh per year.\n\n" +
-    "Campus Life: Well-maintained campus in Rohini with modern labs, libraries, sports facilities, and active student societies."
+    "Maharaja Agrasen Institute of Technology (MAIT), Rohini is one of the strongest private engineering colleges under GGSIPU, known for solid academics, coding culture, and consistent placements.\n\n" +
+    "Branches: Computer Science & Engineering, Information Technology, Artificial Intelligence & Machine Learning, Electronics & Communication Engineering.\n\n" +
+    "Admission (2025): Through JEE Main rank via GGSIPU (IPU) Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹1.7–1.9 lakh per year.\n\n" +
+    "Placements (2024–25):\n" +
+    "• Overall average package: ~₹4.8–5.5 LPA\n" +
+    "• CSE / IT average: ~₹6.0–6.8 LPA\n" +
+    "• Median package: ~₹5.0 LPA\n" +
+    "• Highest package: ~₹40–45 LPA (very few off-campus / PPO offers)\n\n" +
+    "Top Recruiters: TCS, Infosys, Accenture, Cognizant, Capgemini, Amazon (limited), Microsoft (very limited).\n\n" +
+    "Campus Facilities: Urban campus with modern labs, library, sports facilities, and active technical & cultural societies.",
 },
+
 {
   name: "Maharaja Surajmal Institute of Technology (MSIT)",
   image: "https://www.msit.in/static/img/mainPage/slide_9.jpg",
   description:
-    "Maharaja Surajmal Institute of Technology (MSIT) is a reputed IPU-affiliated engineering college known for academic discipline and consistent placements.\n\n" +
-    "Strong branches: Computer Science Engineering (CSE), Information Technology (IT), Electronics & Communication Engineering (ECE).\n\n" +
-    "Admissions: Through JEE Main rank via IPU counselling.\n\n" +
-    "Academics: Balanced focus on theory, practical learning, and industry exposure with experienced faculty.\n\n" +
-    "Placements: Reliable placement record every year.\n" +
-    "Average package: ₹5–7 LPA.\n" +
-    "Highest packages: ₹30+ LPA.\n" +
-    "Top recruiters: Infosys, TCS, Wipro, Accenture, Cognizant, Deloitte.\n\n" +
-    "B.Tech tuition fees: ~₹1.7–1.9 lakh per year.\n\n" +
-    "Campus Life: Located in Janakpuri with good infrastructure, labs, sports facilities, and technical clubs."
+    "Maharaja Surajmal Institute of Technology (MSIT), Janakpuri is a well-established private engineering college under GGSIPU, known for academic discipline, stable results, and consistent placements within the IPU ecosystem.\n\n" +
+    "Branches: Computer Science & Engineering, Information Technology, Electronics & Communication Engineering.\n\n" +
+    "Admission (2025): Through JEE Main rank via GGSIPU (IPU) Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹1.7–1.9 lakh per year.\n\n" +
+    "Placements (2024–25):\n" +
+    "• Overall average package: ~₹4.5–5.2 LPA\n" +
+    "• CSE / IT average: ~₹5.5–6.3 LPA\n" +
+    "• Median package: ~₹4.8 LPA\n" +
+    "• Highest package: ~₹28–30 LPA (very few off-campus / PPO cases)\n\n" +
+    "Top Recruiters: TCS, Infosys, Accenture, Cognizant, Capgemini, Wipro (mostly mass & mid-tier roles).\n\n" +
+    "Campus Facilities: Urban campus with modern labs, library, sports facilities, and active technical & cultural clubs.",
 },
+
+
 {
-  name: "Bhagwan Parshuram Institute of Technology (BPIT) ",
+  name: "Bhagwan Parshuram Institute of Technology (BPIT)",
   image: "https://www.static-contents.youth4work.com/university/Documents/Colleges/CollegeImages/c20a978a-4e71-4fa6-9767-d3dc018cef32.jpg",
   description:
-    "Bhagwan Parshuram Institute of Technology (BPIT) is a well-known IPU engineering college offering quality education with growing placement opportunities.\n\n" +
-    "Strong branches: Computer Science Engineering (CSE), Information Technology (IT), Electronics & Communication Engineering (ECE).\n\n" +
-    "Admissions: Through JEE Main rank via IPU counselling.\n\n" +
-    "Academics: Focus on core engineering fundamentals, skill development, and industry-oriented training.\n\n" +
-    "Placements: Improving placement trends year after year.\n" +
+    "Bhagwan Parshuram Institute of Technology (BPIT), Rohini is a well-known private engineering college affiliated with GGSIPU, offering quality education with steadily improving placements.\n\n" +
+    "Branches: Computer Science & Engineering, Information Technology, Electronics & Communication Engineering.\n\n" +
+    "Admission (2025): Through JEE Main rank via IPU Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹1.6–1.8 lakh per year.\n\n" +
+    "Placements (2025):\n" +
     "Average package: ₹4–6 LPA.\n" +
-    "Highest packages: ₹20+ LPA.\n" +
-    "Top recruiters: Infosys, TCS, Accenture, Capgemini, HCL.\n\n" +
-    "B.Tech tuition fees: ~₹1.6–1.8 lakh per year.\n\n" +
-    "Campus Life: Compact campus in Rohini with modern labs, library, sports activities, and student societies."
+    "Highest package: ₹20+ LPA.\n\n" +
+    "Top Recruiters: Infosys, TCS, Accenture, Capgemini, HCL.\n\n" +
+    "Campus Facilities: Compact urban campus with modern labs, library, sports activities, and active student societies.",
 },
-{
-  name: "Ambedkar Institute of Advanced Communication Technologies & Research (AIACTR)",
-  image: "https://tse4.mm.bing.net/th/id/OIP.EMn9RSCNlF6qMKX-bYDnyAHaDh?w=600&h=285&rs=1&pid=ImgDetMain&o=7&rm=3",
-  description:
-    "Ambedkar Institute of Advanced Communication Technologies & Research (AIACTR) is a government engineering institute under GNCT Delhi and affiliated with IPU.\n\n" +
-    "Strong branches: Electronics & Communication Engineering (ECE), Information Technology (IT).\n\n" +
-    "Admissions: Through JEE Main rank via IPU counselling.\n\n" +
-    "Academics: Strong emphasis on electronics, communication systems, and core engineering concepts.\n\n" +
-    "Placements: Moderate but stable placement support.\n" +
-    "Average package: ₹4–6 LPA.\n" +
-    "Top recruiters: BEL, BSNL, TCS, Infosys, Wipro.\n\n" +
-    "B.Tech tuition fees: ~₹70,000–90,000 per year (government fees).\n\n" +
-    "Campus Life: Located in Geeta Colony with basic infrastructure and affordable education."
-},
+
+// {
+//   name: "Bhagwan Parshuram Institute of Technology (BPIT)",
+//   image: "https://www.static-contents.youth4work.com/university/Documents/Colleges/CollegeImages/c20a978a-4e71-4fa6-9767-d3dc018cef32.jpg",
+//   description:
+//     "Bhagwan Parshuram Institute of Technology (BPIT), Rohini is a private engineering college under GGSIPU offering B.Tech programs with a focus on core academics and gradual improvement in placements.\n\n" +
+//     "Branches: Computer Science & Engineering, Information Technology, Electronics & Communication Engineering.\n\n" +
+//     "Admission (2025): Through JEE Main rank via GGSIPU (IPU) Counselling.\n\n" +
+//     "B.Tech Fees (2025): ~₹1.6–1.8 lakh per year.\n\n" +
+//     "Placements (2024–25):\n" +
+//     "• Overall average package: ~₹3.8–4.5 LPA\n" +
+//     "• CSE / IT average: ~₹4.5–5.2 LPA\n" +
+//     "• Median package: ~₹4.0 LPA\n" +
+//     "• Highest package: ~₹18–20 LPA (very few off-campus / PPO cases)\n\n" +
+//     "Top Recruiters: TCS, Infosys, Accenture, Capgemini, HCL (primarily mass & mid-tier recruiters).\n\n" +
+//     "Campus Facilities: Compact urban campus with labs, library, basic sports facilities, and active student societies.",
+// },
+
+
 {
   name: "Guru Tegh Bahadur Institute of Technology (GTBIT)",
   image: "https://edufever.in/colleges/wp-content/uploads/2021/07/Guru-Tegh-Bahadur-Institute-of-Technology-Delhi.jpg",
   description:
-    "Guru Tegh Bahadur Institute of Technology (GTBIT) is a well-established IPU-affiliated engineering college known for its disciplined academic environment and Sikh minority quota advantage.\n\n" +
-    "Strong branches: Computer Science Engineering (CSE), Information Technology (IT), Electronics & Communication Engineering (ECE), Mechanical Engineering.\n\n" +
-    "Admissions: Through JEE Main rank via IPU counselling (minority quota available).\n\n" +
-    "Academics: Focus on core engineering subjects, regular assessments, and skill-based learning.\n\n" +
-    "Placements: Decent placement support with steady growth.\n" +
+    "Guru Tegh Bahadur Institute of Technology (GTBIT), Rajouri Garden is a reputed private engineering college affiliated with GGSIPU, known for its disciplined academic environment and Sikh minority quota.\n\n" +
+    "Branches: Computer Science & Engineering, Information Technology, Electronics & Communication Engineering, Mechanical Engineering.\n\n" +
+    "Admission (2025): Through JEE Main rank via IPU Counselling (Sikh minority quota available).\n\n" +
+    "B.Tech Fees (2025): ~₹1.6–1.8 lakh per year.\n\n" +
+    "Placements (2025):\n" +
     "Average package: ₹4–6 LPA.\n" +
-    "Highest packages: ₹18+ LPA.\n" +
-    "Top recruiters: Infosys, TCS, Wipro, Accenture, Capgemini.\n\n" +
-    "B.Tech tuition fees: ~₹1.6–1.8 lakh per year.\n\n" +
-    "Campus Life: Located in Rajouri Garden with adequate labs, library, sports facilities, and student activities."
+    "Highest package: ₹18+ LPA.\n\n" +
+    "Top Recruiters: Infosys, TCS, Wipro, Accenture, Capgemini.\n\n" +
+    "Campus Facilities: Urban campus with labs, library, sports facilities, and active student societies.",
 },
 {
   name: "Dr. Akhilesh Das Gupta Institute of Technology & Management (ADGITM)",
   image: "https://thumbs.dreamstime.com/z/beautiful-campus-view-adgitm-formerly-known-as-northern-india-engineering-college-delhi-june-private-afflicted-to-186089883.jpg",
   description:
-    "Dr. Akhilesh Das Gupta Institute of Technology & Management (ADGITM), formerly NIEC, is an IPU-affiliated engineering college with a large intake and diverse student community.\n\n" +
-    "Strong branches: Computer Science Engineering (CSE), Information Technology (IT), Artificial Intelligence & Machine Learning (AI-ML), Electronics & Communication Engineering (ECE).\n\n" +
-    "Admissions: Through JEE Main rank via IPU counselling.\n\n" +
-    "Academics: Industry-focused curriculum with emphasis on practical learning and certifications.\n\n" +
-    "Placements: Average placement record with mass recruiters.\n" +
+    "Dr. Akhilesh Das Gupta Institute of Technology & Management (ADGITM), New Delhi (formerly NIEC) is a private engineering college affiliated with GGSIPU, known for its large intake and diverse student community.\n\n" +
+    "Branches: Computer Science & Engineering, Information Technology, Artificial Intelligence & Machine Learning, Electronics & Communication Engineering.\n\n" +
+    "Admission (2025): Through JEE Main rank via IPU Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹1.5–1.7 lakh per year.\n\n" +
+    "Placements (2025):\n" +
     "Average package: ₹3.5–5 LPA.\n" +
-    "Highest packages: ₹15+ LPA.\n" +
-    "Top recruiters: TCS, Infosys, Wipro, Accenture, Cognizant.\n\n" +
-    "B.Tech tuition fees: ~₹1.5–1.7 lakh per year.\n\n" +
-    "Campus Life: Located in Shastri Park with modern infrastructure, labs, and active cultural societies."
+    "Highest package: ₹15+ LPA.\n\n" +
+    "Top Recruiters: TCS, Infosys, Wipro, Accenture, Cognizant.\n\n" +
+    "Campus Facilities: Urban campus at Shastri Park with modern infrastructure, labs, and active cultural & technical societies.",
 },
+
 {
-  name: "Bharati Vidyapeeth’s College of Engineering (BVCOE) ",
+  name: "Bharati Vidyapeeth’s College of Engineering (BVCOE)",
   image: "https://tse2.mm.bing.net/th/id/OIP.5S0HYjOYAB0u7C1YVPSRwAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3",
   description:
-    "Bharati Vidyapeeth’s College of Engineering (BVCOE) is one of the older IPU engineering colleges, known for academic stability and consistent results.\n\n" +
-    "Strong branches: Computer Science Engineering (CSE), Information Technology (IT), Electronics & Communication Engineering (ECE), Instrumentation & Control Engineering.\n\n" +
-    "Admissions: Through JEE Main rank via IPU counselling.\n\n" +
-    "Academics: Structured academic approach with focus on fundamentals and project-based learning.\n\n" +
-    "Placements: Moderate but consistent placements.\n" +
+    "Bharati Vidyapeeth’s College of Engineering (BVCOE), Paschim Vihar is one of the older private engineering colleges affiliated with GGSIPU, known for academic stability and consistent results.\n\n" +
+    "Branches: Computer Science & Engineering, Information Technology, Electronics & Communication Engineering, Instrumentation & Control Engineering.\n\n" +
+    "Admission (2025): Through JEE Main rank via IPU Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹1.6–1.8 lakh per year.\n\n" +
+    "Placements (2025):\n" +
     "Average package: ₹4–6 LPA.\n" +
-    "Highest packages: ₹18+ LPA.\n" +
-    "Top recruiters: Infosys, TCS, Accenture, Capgemini, L&T.\n\n" +
-    "B.Tech tuition fees: ~₹1.6–1.8 lakh per year.\n\n" +
-    "Campus Life: Located in Paschim Vihar with decent infrastructure, labs, sports, and student clubs."
+    "Highest package: ₹18+ LPA.\n\n" +
+    "Top Recruiters: Infosys, TCS, Accenture, Capgemini, L&T.\n\n" +
+    "Campus Facilities: Urban campus with labs, library, sports facilities, and active student clubs.",
 },
+
 {
-  name: "HMR Institute of Technology & Management (HMRITM) ",
+  name: "HMR Institute of Technology & Management (HMRITM)",
   image: "https://www.joonsquare.com/usermanage/image/business/hmr-institute-of-technology-and-management-north-west-delhi-1-2513/hmr-institute-of-technology-and-management-north-west-delhi-hmritm03.jpg",
   description:
-    "HMR Institute of Technology & Management (HMRITM) is an IPU-affiliated engineering college offering affordable education with improving academic standards.\n\n" +
-    "Strong branches: Computer Science Engineering (CSE), Information Technology (IT), Electronics & Communication Engineering (ECE).\n\n" +
-    "Admissions: Through JEE Main rank via IPU counselling.\n\n" +
-    "Academics: Focus on foundational engineering skills and hands-on lab work.\n\n" +
-    "Placements: Limited but improving placement support.\n" +
-    "Average package: ₹3–4.5 LPA.\n" +
-    "Top recruiters: TCS, Infosys, Wipro, HCL.\n\n" +
-    "B.Tech tuition fees: ~₹1.4–1.6 lakh per year.\n\n" +
-    "Campus Life: Located near Narela with basic infrastructure, labs, and sports facilities."
+    "HMR Institute of Technology & Management (HMRITM), North West Delhi is a private engineering college under GGSIPU offering B.Tech programs with relatively low fees and a focus on entry-level placements.\n\n" +
+    "Branches: Computer Science & Engineering, Information Technology, Electronics & Communication Engineering.\n\n" +
+    "Admission (2025): Through JEE Main rank via GGSIPU (IPU) Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹1.4–1.6 lakh per year.\n\n" +
+    "Placements (2024–25):\n" +
+    "• Overall average package: ~₹2.8–3.4 LPA\n" +
+    "• CSE / IT average: ~₹3.5–4.2 LPA\n" +
+    "• Median package: ~₹3.0 LPA\n" +
+    "• Highest package: ~₹9–10 LPA (very few off-campus / PPO cases)\n\n" +
+    "Top Recruiters: TCS, Infosys, Wipro, HCL (mostly mass-hiring service roles).\n\n" +
+    "Campus Facilities: Suburban campus near Narela with basic labs, library, limited sports facilities, and essential student amenities.",
 },
+
 {
   name: "Northern India Engineering College (NIEC)",
   image: "https://tse1.mm.bing.net/th/id/OIP.UWGZRoGaYcIDVt804q8pvwHaB8?w=1140&h=300&rs=1&pid=ImgDetMain&o=7&rm=3",
   description:
-    "Northern India Engineering College (now ADGITM) is a recognized IPU engineering institution with a long-standing presence in Delhi’s technical education space.\n\n" +
-    "Strong branches: Computer Science Engineering (CSE), Information Technology (IT), Electronics & Communication Engineering (ECE).\n\n" +
-    "Admissions: Through JEE Main rank via IPU counselling.\n\n" +
-    "Academics: Focus on skill development, internships, and project-based learning.\n\n" +
-    "Placements: Average placement opportunities with mass recruiters.\n" +
-    "Average package: ₹3.5–5 LPA.\n\n" +
-    "B.Tech tuition fees: ~₹1.5–1.7 lakh per year.\n\n" +
-    "Campus Life: Urban campus environment with labs, library, and student activities."
-}
+    "Northern India Engineering College (NIEC), New Delhi is the former name of Dr. Akhilesh Das Gupta Institute of Technology & Management (ADGITM). The institute continues under the ADGITM name and follows the same academic structure and placement outcomes.\n\n" +
+    "Branches: Computer Science & Engineering, Information Technology, Electronics & Communication Engineering.\n\n" +
+    "Admission (2025): Through JEE Main rank via GGSIPU (IPU) Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹1.5–1.7 lakh per year.\n\n" +
+    "Placements (2024–25):\n" +
+    "• Overall average package: ~₹3.2–3.8 LPA\n" +
+    "• CSE / IT average: ~₹4.0–4.8 LPA\n" +
+    "• Median package: ~₹3.5 LPA\n" +
+    "• Highest package: ~₹12–15 LPA (very few off-campus / PPO cases)\n\n" +
+    "Campus Facilities: Urban campus at Shastri Park with labs, library, Wi-Fi, and active technical & cultural student activities.",
+},
 
 ];
 

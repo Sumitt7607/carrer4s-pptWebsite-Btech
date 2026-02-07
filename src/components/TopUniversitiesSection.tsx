@@ -43,7 +43,7 @@ const TopUniversitiesSection = () => {
         className="text-center mb-16"
       >
         <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-400 to-yellow-500">
-          State-wise Top Universities & Colleges
+           Top Universities & Colleges
         </h2>
         <p className="text-gray-400 mt-3 text-base sm:text-lg md:text-xl">
           Explore the best engineering institutions across India

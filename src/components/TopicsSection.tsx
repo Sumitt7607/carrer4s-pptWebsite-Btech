@@ -26,7 +26,7 @@ const topics = [
   },
   {
     icon: Building2,
-    title: "Types of Universities",
+    title: "Top Universities & collegses",
     description: "Government, Private, Deemed & Autonomous",
   },
   // {

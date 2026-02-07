@@ -1,11 +1,51 @@
 "use client";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import TopUniversitiesSection from "@/components/TopUniversitiesSection"; 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { MythsSection } from "@/components/MythsSection";
 import HeroSection from "@/components/HeroSection";
 import TopicsSection from "@/components/TopicsSection";
 import AdmissionServicesSection from "@/components/AdmissionServicesSection";
+import PackagesSection from "@/components/PackagesSection";
+import AdmissionCard from "@/components/AdmissionCard";
+const containerVariants: Variants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.1,
+      delayChildren: 0.2,
+    },
+  },
+};
+const cardVariants: Variants = {
+  hidden: { opacity: 0, y: 30, scale: 0.95 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    scale: 1,
+    transition: {
+      type: "spring" as const,
+      stiffness: 100,
+      damping: 15,
+    },
+  },
+};
+const headerVariants: Variants = {
+  hidden: { opacity: 0, y: -30 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      type: "spring" as const,
+      stiffness: 100,
+      damping: 20,
+      delay: 0.1,
+    },
+  },
+};
+
+
 import { 
   GraduationCap, 
   CheckCircle2, 
@@ -18,7 +58,10 @@ import {
   ArrowRight,
   Clock,
   Award,
-  BookOpen
+  BookOpen,
+  Building2,
+  Users,
+  Badge
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
@@ -33,6 +76,10 @@ import { CareersSection } from "@/components/CareersSection";
 import { FakeAlertSection } from "@/components/FakeAlertSection";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import { CounsellingsSection } from "@/components/CounsellingsSection";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { counselingData, getIconComponent } from "@/components/data/counselingData";
+import AdmissionCards from "@/components/AdmissionCards";
+
 const specializations = [
   {
     id: "cse",
@@ -286,8 +333,42 @@ const BTech = () => {
 
     <CareersSection/>
 
+<TopUniversitiesSection />
 
-      <section className="py-20 relative z-10">
+     <motion.div
+  className="relative z-20 text-center mb-20 px-4"
+  initial={{ opacity: 0, y: 30 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  transition={{ delay: 0.2, duration: 0.6 }}
+>
+  <h2 className="text-4xl md:text-5xl font-bold mb-5 text-foreground drop-shadow-lg">
+   Central And State {" "}
+    <span className="text-gradient-saffron">
+      Counselings
+    </span>
+  </h2>
+
+  <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+    Explore comprehensive information about major engineering counselings in India.
+    Click on any card to view detailed admission process, seat matrix, and more.
+  </p>
+</motion.div>
+{/* <motion.h2
+  initial={{ opacity: 1, y: 0 }}   // 🔥 do NOT start hidden
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.4 }}
+  className="relative z-30 text-3xl md:text-4xl font-bold text-center mb-12 text-foreground"
+>
+  Central{" "}
+  <span className="text-gradient-saffron">
+    Counseling
+  </span>
+</motion.h2> */}
+
+
+      <section className="py-5 relative z-10">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
@@ -300,18 +381,121 @@ const BTech = () => {
           </motion.div>
         </div>
       </section>
-      <TopUniversitiesSection />
-      <CounsellingsSection />
+<motion.div
+  className="
+    grid
+    grid-cols-1
+    sm:grid-cols-2
+    md:grid-cols-3
+    lg:grid-cols-4
+    xl:grid-cols-5
+    gap-4
+  "
+  variants={containerVariants}
+  initial="hidden"
+  animate="visible"
+>
+
+          {counselingData.map((counseling, index) => {
+            const IconComponent = getIconComponent(counseling.icon);
+            return (
+              <motion.div key={counseling.id} variants={cardVariants}>
+                <Link to={`/counseling/${counseling.id}`}>
+                  <Card className="group relative overflow-hidden border-border/50 bg-card/80 backdrop-blur-sm hover:border-primary/50 transition-all duration-500 h-full cursor-pointer">
+                    {/* Glow Effect */}
+                    <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+                      <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-accent/10" />
+                      <div className="absolute -inset-1 bg-gradient-to-br from-primary/20 to-accent/20 blur-xl" />
+                    </div>
+
+                    {/* Status Badge */}
+                    <div className="absolute top-4 right-4 z-10">
+                      <Badge
+                        className={`${
+                          counseling.status === "Active"
+                            ? "bg-green-500/20 text-green-400 border-green-500/30"
+                            : counseling.status === "Upcoming"
+                            ? "bg-yellow-500/20 text-yellow-400 border-yellow-500/30"
+                            : "bg-gray-500/20 text-gray-400 border-gray-500/30"
+                        } animate-pulse`}
+                      >
+                        {counseling.status}
+                      </Badge>
+                    </div>
+
+               <CardHeader className="relative pb-1 pt-4 px-4">
+  <motion.div
+    className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center mb-2 group-hover:scale-105 transition-transform"
+  >
+    <IconComponent className="h-6 w-6 text-primary-foreground" />
+  </motion.div>
+
+  <CardTitle className="text-base font-semibold leading-tight group-hover:text-primary">
+    {counseling.name}
+  </CardTitle>
+
+  <p className="text-xs text-muted-foreground line-clamp-1">
+    {counseling.fullName}
+  </p>
+</CardHeader>
+
+
+         <CardContent className="px-4 pb-4 pt-2 space-y-2">
+  <div className="flex justify-between text-xs">
+    <div className="flex items-center gap-1">
+      <Users className="h-3 w-3 text-primary" />
+      <span>{counseling.totalSeats.toLocaleString()}</span>
+    </div>
+
+    <div className="flex items-center gap-1">
+      <Building2 className="h-3 w-3 text-primary" />
+      <span>{counseling.participatingColleges}</span>
+    </div>
+  </div>
+
+  <p className="text-xs text-muted-foreground line-clamp-2">
+    {counseling.description}
+  </p>
+
+  <div className="flex items-center gap-1 text-primary text-xs font-medium">
+    View Details
+    <ArrowRight className="h-3 w-3" />
+  </div>
+</CardContent>
+
+                  </Card>
+                </Link>
+              </motion.div>
+            );
+          })}
+
+
+
+</motion.div>
+
+
+
+
+
+
+
+
+
+      
+      {/* <CounsellingsSection /> */}
       <DocumentationSection/>
-      <AdmissionProcessSection/>
+      <AdmissionCards/>
+      {/* <AdmissionProcessSection/> */}
       <CommonMistakesSection/>
       <FakeAlertSection/>
       <MythsSection/>
-          <AdmissionServicesSection/>
+          {/* <AdmissionServicesSection/> */}
+        <PackagesSection/>
       <TestimonialsCarousel />
-  
+
+
       <WhyChooseUs/>
-      <Footer />
+          
     </div>
   );
 };

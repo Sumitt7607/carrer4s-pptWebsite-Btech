@@ -22,6 +22,10 @@ import Electrical from "./components/Electrical";
 import InformationTechnology from "./components/InformationTechnology";
 import Civil from "./components/Civil";
 import Chemical from "./components/Chemical";
+import CounselingDetail from "./components/CounselingDetail";
+import StandardPackage from "./pages/StandardPackage";
+import PremiumPackage from "./pages/PremiumPackage";
+import AdmissionDetail from "./pages/AdmissionDetail";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -50,7 +54,10 @@ const App = () => (
 <Route path="/electrical" element={<Electrical/>} />
 <Route path="/chemical" element={<Chemical/>} />
 <Route path="/civil" element={<Civil/>} />
-
+   <Route path="/packages/standard" element={<StandardPackage />} />
+          <Route path="/packages/premium" element={<PremiumPackage />} />
+  <Route path="/counseling/:id" element={<CounselingDetail />} />
+    <Route path="/admission/:type" element={<AdmissionDetail />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

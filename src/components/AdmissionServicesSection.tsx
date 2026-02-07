@@ -139,7 +139,9 @@ const AdmissionServicesSection: React.FC = () => {
 </div>
 
         {/* Services Grid */}
-        <div className="mx-auto max-w-6xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 place-items-center">
+  <div className="mx-auto max-w-6xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+
+
           {services.map((service, index) => (
             <motion.div
               key={service.title}

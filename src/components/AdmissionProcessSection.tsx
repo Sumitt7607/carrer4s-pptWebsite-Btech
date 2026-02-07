@@ -115,7 +115,7 @@ const admissionTypes: AdmissionType[] = [
     "Provisional Admission / Offer Letter"
   ],
   detailedInfo:
-    "The Direct Admission (Merit-Based) pathway is designed for academically strong students who wish to secure B.Tech admission through a simplified and fast-track process. Institutions evaluate candidates based on their Class 12th performance, consistency in academics, and overall profile. This option is ideal for students who meet high merit criteria and want to avoid the extended timelines of entrance exams and centralized counselling, while still ensuring compliance with institutional and regulatory guidelines."
+    "The Direct Admission (Merit-Based) pathway is designed for academically strong students who wish to secure B.Tech admission through a simplified and fast-track process. Institutions evaluate candidates based on their Class 12th performance, consistency in academics, and overall profile."
 },
 
 {
@@ -129,9 +129,7 @@ const admissionTypes: AdmissionType[] = [
     "Preliminary Eligibility & Profile Screening",
     "Reference Authentication & Verification",
     "Academic Document Verification",
-    "Institutional Review",
-    "Seat Confirmation",
-    "Enrollment & Reporting"
+ 
   ],
   eligibility: [
     "Valid reference from alumni, faculty member, or institutional associate",
@@ -145,10 +143,10 @@ const admissionTypes: AdmissionType[] = [
     "Referee Details (Name, Designation, Contact Information)",
     "Class 12th Marksheet & Passing Certificate",
     "Class 10th Marksheet & Passing Certificate",
-    "Transfer Certificate (TC)",
+
     "Passport Size Photographs",
     "Government ID Proof",
-    "Completed Application Form"
+
   ],
   detailedInfo:
     "Reference-based admission utilizes a strong network of alumni, faculty, and institutional partners to identify suitable candidates for B.Tech programs. While referrals allow for priority consideration and smoother coordination, final admission decisions are made strictly after academic evaluation and verification of credentials. This pathway ensures that referred students meet institutional standards while benefiting from guidance and support through the admission process."

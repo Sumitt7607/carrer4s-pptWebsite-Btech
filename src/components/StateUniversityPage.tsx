@@ -9,170 +9,173 @@ interface College {
 /* ---------------- DATA ---------------- */
 
 const universities: College[] = [
+{
+  name: "State Institute of Engineering & Technology, Haryana",
+  image: "/si.avif",
+  description:
+    "State Institute of Engineering & Technology (SIET), Nilokheri, Haryana offers a 4-year B.Tech program.\n\n" +
+    "Branches: Mechanical Engineering, Electrical Engineering, Civil Engineering, Electronics & Communication Engineering.\n\n" +
+    "Admission (2025): Through JEE Main + HSTES Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹45,000–60,000 per year.\n\n" +
+    "Hostel + Mess Fees: ~₹25,000–35,000 per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹3–5 LPA.\n" +
+    "Highest package: ₹10+ LPA.\n\n" +
+    "Campus Facilities: On-campus hostels, mess, Wi-Fi, labs, sports facilities, and medical unit."
+},
+{
+  name: "Kurukshetra University",
+  image: "/kr.avif",
+  description:
+    "Kurukshetra University, Kurukshetra offers a 4-year B.Tech program.\n\n" +
+    "Branches: Computer Engineering, Electronics & Communication Engineering, Mechanical Engineering, Electrical Engineering, Civil Engineering.\n\n" +
+    "Admission (2025): Through JEE Main + HSTES / University counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹55,000–70,000 per year.\n\n" +
+    "Hostel + Mess Fees: ~₹30,000–40,000 per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹4–6 LPA.\n" +
+    "Highest package: ₹20+ LPA (overall).\n\n" +
+    "Campus Facilities: Large residential campus with hostels, mess, Wi-Fi, central library, labs, sports complexes, and health center."
+},
+
+{
+  name: "University Institute of Engineering & Technology, Rohtak",
+  image: "/roh.webp",
+  description:
+    "University Institute of Engineering & Technology (UIET), Rohtak offers a 4-year B.Tech program.\n\n" +
+    "Branches: Computer Engineering, Electronics & Communication Engineering, Mechanical Engineering, Electrical Engineering.\n\n" +
+    "Admission (2025): Through JEE Main + HSTES Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹50,000–65,000 per year.\n\n" +
+    "Hostel + Mess Fees: ~₹25,000–35,000 per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹3.5–5.5 LPA.\n" +
+    "Highest package: ₹15+ LPA.\n\n" +
+    "Campus Facilities: On-campus hostels with mess, Wi-Fi, labs, library, sports courts, and campus security."
+},
+
   {
-    name: "State Institute of Engineering & Technology, Haryana",
-    image: "/si.avif",
-    description:
-      "State Institute of Engineering & Technology (SIET), Haryana offers B.Tech programs with a focus on core engineering branches and regional development.\n\n" +
-      "Strong branches: Mechanical, Electrical, Civil, Electronics Engineering.\n\n" +
-      "Admissions: Through HSTES counseling based on JEE Main rank.\n\n" +
-      "Academics: Offers B.Tech and M.Tech programs.\n\n" +
-      "Placements: Moderate placement record.\n" +
-      "Average package: ₹3–5 LPA.\n" +
-      "Top recruiters: L&T, TCS, Wipro, local manufacturing firms.\n\n" +
-      "B.Tech tuition fees: ~₹45,000–60,000 per year.\n" +
-      "Hostel + mess fees: ~₹25,000–35,000 per year.\n\n" +
-      "Hostel: On-campus hostels with mess, Wi-Fi, sports facilities, and medical unit."
+  name: "Ch. Ranbir Singh State Institute of Engineering & Technology, Jhajjar",
+  image: "/ch.webp",
+  description:
+    "Ch. Ranbir Singh State Institute of Engineering & Technology (CRS SIET), Jhajjar offers a 4-year B.Tech program.\n\n" +
+    "Branches: Mechanical Engineering, Electrical Engineering, Electronics & Communication Engineering, Civil Engineering.\n\n" +
+    "Admission (2025): Through JEE Main + HSTES Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹40,000–60,000 per year.\n\n" +
+    "Hostel + Mess Fees: ~₹25,000–35,000 per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹3–5 LPA.\n" +
+    "Highest package: ₹10+ LPA.\n\n" +
+    "Campus Facilities: Fully residential campus with hostels, mess, Wi-Fi, labs, sports facilities, and medical unit."
   },
-  {
-    name: "Kurukshetra University",
-    image: "/kr.avif",
-    description:
-      "Kurukshetra University is a reputed state university in Haryana with strong academic heritage and experienced faculty.\n\n" +
-      "Strong branches: Computer Science, Electronics, Mechanical, Electrical Engineering.\n\n" +
-      "Admissions: Through HSTES / University counseling based on JEE Main.\n\n" +
-      "Academics: Offers B.Tech, M.Tech, MSc, and PhD programs.\n\n" +
-      "Placements: Good placement performance.\n" +
-      "Average package: ₹4–7 LPA.\n" +
-      "Top recruiters: Infosys, TCS, Wipro, Capgemini, HCL.\n\n" +
-      "B.Tech tuition fees: ~₹50,000–70,000 per year.\n" +
-      "Hostel + mess fees: ~₹30,000–40,000 per year.\n\n" +
-      "Hostel: Residential campus with hostels, mess, Wi-Fi, sports complexes, library, and health center."
-  },
-  {
-    name: "University Institute of Engineering & Technology, Rohtak",
-    image: "/roh.webp",
-    description:
-      "UIET Rohtak provides quality B.Tech education with modern laboratories and skilled faculty.\n\n" +
-      "Strong branches: Computer Science, Electronics, Mechanical Engineering.\n\n" +
-      "Admissions: Through HSTES counseling based on JEE Main rank.\n\n" +
-      "Academics: Offers B.Tech and M.Tech programs.\n\n" +
-      "Placements: Growing placement ecosystem.\n" +
-      "Average package: ₹3.5–6 LPA.\n\n" +
-      "B.Tech tuition fees: ~₹45,000–65,000 per year.\n" +
-      "Hostel + mess fees: ~₹25,000–35,000 per year.\n\n" +
-      "Hostel: On-campus hostels with mess, Wi-Fi, sports courts, library, and campus security."
-  },
-  {
-    name: "CH. Ranbir Singh State Institute of Engineering & Technology, Jhajjar",
-    image: "/ch.webp",
-    description:
-      "CRS SIET Jhajjar is a government engineering institute offering affordable B.Tech programs with emphasis on practical learning.\n\n" +
-      "Strong branches: Mechanical, Electrical, Electronics, Civil Engineering.\n\n" +
-      "Admissions: Through HSTES counseling based on JEE Main.\n\n" +
-      "Academics: Offers B.Tech and Diploma programs.\n\n" +
-      "Placements: Moderate placement performance.\n" +
-      "Average package: ₹3–5 LPA.\n\n" +
-      "B.Tech tuition fees: ~₹40,000–60,000 per year.\n" +
-      "Hostel + mess fees: ~₹25,000–35,000 per year.\n\n" +
-      "Hostel: Residential campus with hostels, mess, Wi-Fi, sports facilities, and medical unit."
-  },
-  {
-    name: "J.C Bose University of Science & Technology, YMCA Faridabad",
-    image: "/jc.webp",
-    description:
-      "YMCA Faridabad is a top state government engineering university in Haryana known for strong placements and alumni network.\n\n" +
-      "Strong branches: Computer Science, IT, Electronics, Mechanical Engineering.\n\n" +
-      "Admissions: Through HSTES counseling based on JEE Main rank.\n\n" +
-      "Academics: Offers B.Tech, M.Tech, MBA, and PhD programs.\n\n" +
-      "Placements: Very good placement performance.\n" +
-      "Average package: ₹6–9 LPA.\n" +
-      "Top recruiters: Amazon, Microsoft, Infosys, TCS, Samsung.\n\n" +
-      "B.Tech tuition fees: ~₹70,000–90,000 per year.\n" +
-      "Hostel + mess fees: ~₹35,000–45,000 per year.\n\n" +
-      "Hostel: On-campus hostels with mess, Wi-Fi, sports complexes, library, and medical center."
-  },
-  {
-    name: "Bhagat Phool Singh Mahila Vishwavidyalaya, Sonipat",
-    image: "/bg.webp",
-    description:
-      "BPSMV Sonipat is a women’s university offering B.Tech programs with a safe campus environment and quality academics.\n\n" +
-      "Strong branches: Computer Science, Electronics, Mechanical Engineering.\n\n" +
-      "Admissions: Through HSTES counseling based on JEE Main.\n\n" +
-      "Academics: Offers B.Tech, M.Tech, MSc, and PhD programs.\n\n" +
-      "Placements: Improving placement trends.\n" +
-      "Average package: ₹3.5–6 LPA.\n\n" +
-      "B.Tech tuition fees: ~₹40,000–60,000 per year.\n" +
-      "Hostel + mess fees: ~₹25,000–35,000 per year.\n\n" +
-      "Hostel: Fully residential campus with hostels, mess, Wi-Fi, sports facilities, and campus security."
-  },
+{
+  name: "J.C. Bose University of Science & Technology, YMCA Faridabad",
+  image: "/jc.webp",
+  description:
+    "J.C. Bose University of Science & Technology (YMCA), Faridabad offers a 4-year B.Tech program.\n\n" +
+    "Branches: Computer Engineering, Information Technology, Electronics & Communication Engineering, Mechanical Engineering, Electrical Engineering.\n\n" +
+    "Admission (2025): Through JEE Main + HSTES Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹70,000–90,000 per year.\n\n" +
+    "Hostel + Mess Fees: ~₹35,000–45,000 per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹6–8 LPA.\n" +
+    "Highest package: ₹45+ LPA (overall).\n\n" +
+    "Top Recruiters: Amazon, Microsoft, Samsung, Infosys, TCS.\n\n" +
+    "Campus Facilities: On-campus hostels, mess, Wi-Fi, central library, labs, sports complexes, and medical center."
+},
+{
+  name: "Bhagat Phool Singh Mahila Vishwavidyalaya, Sonipat",
+  image: "/bg.webp",
+  description:
+    "Bhagat Phool Singh Mahila Vishwavidyalaya (BPSMV), Sonipat offers a 4-year B.Tech program (Women-only).\n\n" +
+    "Branches: Computer Engineering, Electronics & Communication Engineering, Mechanical Engineering, Electrical Engineering.\n\n" +
+    "Admission (2025): Through JEE Main + HSTES Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹40,000–60,000 per year.\n\n" +
+    "Hostel + Mess Fees: ~₹25,000–35,000 per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹3.5–5.5 LPA.\n" +
+    "Highest package: ₹12+ LPA.\n\n" +
+    "Campus Facilities: Fully residential women-only campus with hostels, mess, Wi-Fi, labs, sports facilities, and campus security."
+},
+
 ];
 
 const colleges: College[] = [
-  {
-    name: "Delhi Technological University (DTU)",
-    image: "/dtu.webp",
-    description:
-      "Delhi Technological University (DTU) is one of India’s top government engineering universities with excellent placements and strong academic reputation.\n\n" +
-      "Strong branches: Computer Science, IT, Electronics, Mechanical, Electrical Engineering.\n\n" +
-      "Admissions: Through JAC Delhi counseling based on JEE Main rank.\n\n" +
-      "Academics: Offers B.Tech, M.Tech, MBA, and PhD programs.\n\n" +
-      "Placements: Outstanding placement record.\n" +
-      "Average package: ₹10–15 LPA.\n" +
-      "Highest packages: ₹50+ LPA.\n" +
-      "Top recruiters: Google, Microsoft, Amazon, Goldman Sachs, Adobe.\n\n" +
-      "B.Tech tuition fees: ~₹2.0–2.3 lakh per year.\n" +
-      "Hostel + mess fees: ~₹45,000–60,000 per year.\n\n" +
-      "Hostel: Limited on-campus hostels, Wi-Fi, sports facilities, library, and medical center."
-  },
-  {
-    name: "Netaji Subhas University of Technology (NSUT)",
-    image: "/nsut.webp",
-    description:
-      "NSUT is a premier government engineering university in Delhi known for modern infrastructure and top-tier academics.\n\n" +
-      "Strong branches: Computer Science, IT, Electronics, Mechanical Engineering.\n\n" +
-      "Admissions: Through JAC Delhi counseling based on JEE Main rank.\n\n" +
-      "Academics: Offers B.Tech, M.Tech, MBA, and PhD programs.\n\n" +
-      "Placements: Excellent placement performance.\n" +
-      "Average package: ₹9–14 LPA.\n" +
-      "Highest packages: ₹50+ LPA.\n" +
-      "Top recruiters: Amazon, Microsoft, Google, Adobe, Deloitte.\n\n" +
-      "B.Tech tuition fees: ~₹2.0–2.3 lakh per year.\n" +
-      "Hostel + mess fees: ~₹45,000–60,000 per year.\n\n" +
-      "Hostel: On-campus hostels with mess, Wi-Fi, sports complexes, library, and medical unit."
-  },
-  {
-    name: "Jamia Millia Islamia (FET)",
-    image: "/jamia.webp",
-    description:
-      "Jamia’s Faculty of Engineering & Technology (FET) is a central government institute offering affordable and quality B.Tech programs.\n\n" +
-      "Strong branches: Computer Engineering, Electronics, Electrical, Mechanical Engineering.\n\n" +
-      "Admissions: Through JEE Main (JoSAA/CSAB for central universities).\n\n" +
-      "Academics: Offers B.Tech, M.Tech, MSc, and PhD programs.\n\n" +
-      "Placements: Good placement record.\n" +
-      "Average package: ₹6–10 LPA.\n\n" +
-      "B.Tech tuition fees: ~₹16,000–20,000 per year.\n" +
-      "Hostel + mess fees: ~₹25,000–35,000 per year.\n\n" +
-      "Hostel: Limited hostels, mess, Wi-Fi, library, sports facilities, and medical center."
-  },
-  {
-    name: "USICT, GGSIPU",
-    image: "/uscit.avif",
-    description:
-      "University School of Information, Communication & Technology (USICT) is the flagship engineering institute of GGSIPU.\n\n" +
-      "Strong branches: Computer Science, IT, ECE.\n\n" +
-      "Admissions: Through JAC Delhi counseling based on JEE Main rank.\n\n" +
-      "Academics: Offers B.Tech, M.Tech, MBA, and PhD programs.\n\n" +
-      "Placements: Good placement support.\n" +
-      "Average package: ₹6–9 LPA.\n\n" +
-      "B.Tech tuition fees: ~₹1.5–2.0 lakh per year.\n" +
-      "Hostel + mess fees: ~₹40,000–55,000 per year.\n\n" +
-      "Hostel: On-campus hostels with mess, Wi-Fi, sports facilities, library, and campus security."
-  },
-  {
-    name: "Ambedkar Institute of Advanced Communication Technologies & Research (AIACTR)",
-    image: "/am.jpg",
-    description:
-      "Ambedkar Institute of Advanced Communication Technologies & Research (AIACTR) is a government engineering college affiliated with GGSIPU.\n\n" +
-      "Strong branches: Electronics & Communication Engineering.\n\n" +
-      "Admissions: Through JAC Delhi counseling based on JEE Main rank.\n\n" +
-      "Academics: Offers B.Tech, M.Tech, and Diploma programs.\n\n" +
-      "Placements: Moderate placement record.\n" +
-      "Average package: ₹4–7 LPA.\n\n" +
-      "B.Tech tuition fees: ~₹1.2–1.6 lakh per year.\n" +
-      "Hostel + mess fees: ~₹35,000–50,000 per year.\n\n" +
-      "Hostel: Limited hostel facilities, mess, Wi-Fi, library, and sports areas."
-  },
+  
+   {
+  name: "Delhi Technological University (DTU)",
+  image: "/dtu.webp",
+  description:
+    "Delhi Technological University (DTU), New Delhi offers a 4-year B.Tech program and is one of India’s top government engineering universities.\n\n" +
+    "Branches: Computer Engineering, Information Technology, Electronics & Communication Engineering, Mechanical Engineering, Electrical Engineering, Civil Engineering.\n\n" +
+    "Admission (2025): Through JEE Main + JAC Delhi Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹2.0–2.3 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹45,000–60,000 per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹10–14 LPA.\n" +
+    "Highest package: ₹50+ LPA.\n\n" +
+    "Top Recruiters: Google, Microsoft, Amazon, Goldman Sachs, Adobe.\n\n" +
+    "Campus Facilities: Limited on-campus hostels, Wi-Fi-enabled campus, central library, advanced labs, sports complexes, and medical center."
+},
+
+{
+  name: "Netaji Subhas University of Technology (NSUT)",
+  image: "/nsut.webp",
+  description:
+    "Netaji Subhas University of Technology (NSUT), New Delhi offers a 4-year B.Tech program and is a premier government engineering university.\n\n" +
+    "Branches: Computer Engineering, Information Technology, Electronics & Communication Engineering, Mechanical Engineering, Electrical Engineering.\n\n" +
+    "Admission (2025): Through JEE Main + JAC Delhi Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹2.0–2.3 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹45,000–60,000 per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹9–13 LPA.\n" +
+    "Highest package: ₹50+ LPA.\n\n" +
+    "Top Recruiters: Amazon, Microsoft, Google, Adobe, Deloitte.\n\n" +
+    "Campus Facilities: On-campus hostels with mess, Wi-Fi-enabled campus, central library, advanced labs, sports complexes, and medical unit."
+},
+
+{
+  name: "Jamia Millia Islamia (Faculty of Engineering & Technology)",
+  image: "/jamia.webp",
+  description:
+    "Jamia Millia Islamia – Faculty of Engineering & Technology (FET), New Delhi offers a 4-year B.Tech program under a central government university.\n\n" +
+    "Branches: Computer Engineering, Electronics & Communication Engineering, Electrical Engineering, Mechanical Engineering, Civil Engineering.\n\n" +
+    "Admission (2025): Through JEE Main + JMI Counselling (via JoSAA/CSAB equivalent process).\n\n" +
+    "B.Tech Fees (2025): ~₹16,000–20,000 per year.\n\n" +
+    "Hostel + Mess Fees: ~₹25,000–35,000 per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹6–9 LPA.\n" +
+    "Highest package: ₹50+ LPA (overall).\n\n" +
+    "Campus Facilities: Limited on-campus hostels, mess, Wi-Fi-enabled campus, central library, labs, sports facilities, and medical center."
+},
+{
+  name: "USICT, GGSIPU",
+  image: "/uscit.avif",
+  description:
+    "University School of Information, Communication & Technology (USICT), GGSIPU, New Delhi offers a 4-year B.Tech program.\n\n" +
+    "Branches: Computer Science & Engineering, Information Technology, Electronics & Communication Engineering.\n\n" +
+    "Admission (2025): Through JEE Main + JAC Delhi Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹1.5–2.0 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹40,000–55,000 per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹6–8 LPA.\n" +
+    "Highest package: ₹25+ LPA.\n\n" +
+    "Campus Facilities: On-campus hostels with mess, Wi-Fi-enabled campus, central library, labs, sports facilities, and campus security."
+},
+{
+  name: "Ambedkar Institute of Advanced Communication Technologies & Research (AIACTR)",
+  image: "/am.jpg",
+  description:
+    "Ambedkar Institute of Advanced Communication Technologies & Research (AIACTR), New Delhi offers a 4-year B.Tech program and is a government engineering institute affiliated with GGSIPU.\n\n" +
+    "Branches: Electronics & Communication Engineering.\n\n" +
+    "Admission (2025): Through JEE Main + JAC Delhi Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹1.2–1.6 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹35,000–50,000 per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹4–6 LPA.\n" +
+    "Highest package: ₹15+ LPA.\n\n" +
+    "Campus Facilities: Limited hostel facilities, mess, Wi-Fi-enabled campus, library, labs, and sports areas."
+},
+
   // {
   //   name: "MAIT",
   //   image: "/mait.jpg",
@@ -190,112 +193,117 @@ const colleges: College[] = [
 ];
 
 const Rajasthan: College[] = [
-  {
-    name: "Government Engineering College, Ajmer",
-    image: "/aj.jpg",
-    description:
-      "Government Engineering College (GEC), Ajmer is a reputed state government engineering college in Rajasthan known for affordable education.\n\n" +
-      "Strong branches: Mechanical, Electrical, Civil, Electronics Engineering.\n\n" +
-      "Admissions: Through REAP counseling based on JEE Main rank.\n\n" +
-      "Academics: Offers B.Tech and M.Tech programs.\n\n" +
-      "Placements: Moderate placement record.\n" +
-      "Average package: ₹3–5 LPA.\n" +
-      "Top recruiters: L&T, TCS, Wipro, local infrastructure firms.\n\n" +
-      "B.Tech tuition fees: ~₹60,000–80,000 per year.\n" +
-      "Hostel + mess fees: ~₹25,000–35,000 per year.\n\n" +
-      "Hostel: On-campus hostels with mess, Wi-Fi, sports facilities, and medical unit."
-  },
-  {
-    name: "Government Engineering College, Bikaner",
-    image: "/bi.webp",
-    description:
-      "GEC Bikaner offers B.Tech programs with a focus on regional technical education and core engineering disciplines.\n\n" +
-      "Strong branches: Mechanical, Electrical, Civil, Electronics Engineering.\n\n" +
-      "Admissions: Through REAP counseling based on JEE Main rank.\n\n" +
-      "Academics: Offers B.Tech programs.\n\n" +
-      "Placements: Developing placement ecosystem.\n" +
-      "Average package: ₹3–4.5 LPA.\n\n" +
-      "B.Tech tuition fees: ~₹55,000–75,000 per year.\n" +
-      "Hostel + mess fees: ~₹25,000–35,000 per year.\n\n" +
-      "Hostel: Residential campus with hostels, mess, Wi-Fi, sports facilities, and campus security."
-  },
-  {
-    name: "MBM Engineering College, Jodhpur",
-    image: "/rj.jpeg",
-    description:
-      "MBM Engineering College, Jodhpur is one of Rajasthan’s oldest and most respected government engineering colleges.\n\n" +
-      "Strong branches: Mechanical, Electrical, Civil, Electronics, Computer Engineering.\n\n" +
-      "Admissions: Through REAP counseling based on JEE Main rank.\n\n" +
-      "Academics: Offers B.Tech, M.Tech, and PhD programs.\n\n" +
-      "Placements: Good placement performance.\n" +
-      "Average package: ₹4–7 LPA.\n" +
-      "Top recruiters: TCS, Infosys, L&T, Wipro, Reliance.\n\n" +
-      "B.Tech tuition fees: ~₹60,000–90,000 per year.\n" +
-      "Hostel + mess fees: ~₹30,000–40,000 per year.\n\n" +
-      "Hostel: Large residential campus with hostels, mess, Wi-Fi, sports facilities, library, and medical center."
-  },
-  {
-    name: "JECRC University, Jaipur",
-    image: "/jec.jpg",
-    description:
-      "JECRC University offers modern B.Tech programs with strong industry exposure and good campus infrastructure.\n\n" +
-      "Strong branches: Computer Science, IT, AI, ECE, Mechanical Engineering.\n\n" +
-      "Admissions: Through JEE Main / REAP / University entrance.\n\n" +
-      "Academics: Offers B.Tech, M.Tech, MBA, and PhD programs.\n\n" +
-      "Placements: Good placement performance.\n" +
-      "Average package: ₹4–7 LPA.\n" +
-      "Top recruiters: TCS, Cognizant, Infosys, Wipro, Capgemini.\n\n" +
-      "B.Tech tuition fees: ~₹1.6–2.4 lakh per year.\n" +
-      "Hostel + mess fees: ~₹90,000–1.2 lakh per year.\n\n" +
-      "Hostel: On-campus hostels with mess, Wi-Fi, sports facilities, gym, and medical unit."
-  },
-  {
-    name: "Poornima College of Engineering, Jaipur",
-    image: "/poo.jpg",
-    description:
-      "Poornima College of Engineering is known for industry-linked curriculum and decent placement performance.\n\n" +
-      "Strong branches: Computer Science, IT, ECE, Mechanical Engineering.\n\n" +
-      "Admissions: Through REAP counseling based on JEE Main rank.\n\n" +
-      "Academics: Offers B.Tech and M.Tech programs.\n\n" +
-      "Placements: Good placement trends.\n" +
-      "Average package: ₹4–6 LPA.\n\n" +
-      "B.Tech tuition fees: ~₹1.2–1.8 lakh per year.\n" +
-      "Hostel + mess fees: ~₹80,000–1.1 lakh per year.\n\n" +
-      "Hostel: Residential campus with hostels, mess, Wi-Fi, sports courts, and campus security."
-  },
-  {
-    name: "Manipal University Jaipur",
-    image: "/mp.jpg",
-    description:
-      "Manipal University Jaipur (MUJ) offers global-standard engineering education with modern campus facilities.\n\n" +
-      "Strong branches: Computer Science, IT, AI, ECE, Mechanical Engineering.\n\n" +
-      "Admissions: Through MET / JEE Main.\n\n" +
-      "Academics: Offers B.Tech, M.Tech, MBA, and PhD programs.\n\n" +
-      "Placements: Very good placement performance.\n" +
-      "Average package: ₹6–9 LPA.\n" +
-      "Top recruiters: Microsoft, Amazon, Deloitte, Infosys, TCS.\n\n" +
-      "B.Tech tuition fees: ~₹3.0–4.5 lakh per year.\n" +
-      "Hostel + mess fees: ~₹1.0–1.3 lakh per year.\n\n" +
-      "Hostel: Fully residential campus with modern hostels, Wi-Fi, sports complexes, gym, hospital, and library."
-  },
+{
+  name: "Government Engineering College, Ajmer",
+  image: "/aj.jpg",
+  description:
+    "Government Engineering College (GEC), Ajmer is a state government engineering college in Rajasthan offering affordable B.Tech programs.\n\n" +
+    "Branches: Mechanical Engineering, Electrical Engineering, Civil Engineering, Electronics & Communication Engineering.\n\n" +
+    "Admission (2025): Through JEE Main + REAP Counselling (Rajasthan).\n\n" +
+    "B.Tech Fees (2025): ~₹60,000–80,000 per year.\n\n" +
+    "Hostel + Mess Fees: ~₹25,000–35,000 per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹3–5 LPA.\n" +
+    "Highest package: ₹10+ LPA.\n\n" +
+    "Campus Facilities: On-campus hostels with mess, Wi-Fi, labs, sports facilities, and medical unit.",
+},
+
+{
+  name: "Government Engineering College, Bikaner",
+  image: "/bi.webp",
+  description:
+    "Government Engineering College (GEC), Bikaner is a state government engineering college in Rajasthan offering B.Tech programs.\n\n" +
+    "Branches: Mechanical Engineering, Electrical Engineering, Civil Engineering, Electronics & Communication Engineering.\n\n" +
+    "Admission (2025): Through JEE Main + REAP Counselling (Rajasthan).\n\n" +
+    "B.Tech Fees (2025): ~₹55,000–75,000 per year.\n\n" +
+    "Hostel + Mess Fees: ~₹25,000–35,000 per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹3–4.5 LPA.\n" +
+    "Highest package: ₹8–10 LPA.\n\n" +
+    "Campus Facilities: Fully residential campus with hostels, mess, Wi-Fi, labs, sports facilities, and campus security.",
+},
+
+{
+  name: "MBM Engineering College, Jodhpur",
+  image: "/rj.jpeg",
+  description:
+    "MBM Engineering College, Jodhpur is one of Rajasthan’s oldest and most reputed state government engineering colleges.\n\n" +
+    "Branches: Computer Engineering, Electronics & Communication Engineering, Mechanical Engineering, Electrical Engineering, Civil Engineering.\n\n" +
+    "Admission (2025): Through JEE Main + REAP Counselling (Rajasthan).\n\n" +
+    "B.Tech Fees (2025): ~₹60,000–90,000 per year.\n\n" +
+    "Hostel + Mess Fees: ~₹30,000–40,000 per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹4–6 LPA.\n" +
+    "Highest package: ₹15+ LPA.\n\n" +
+    "Top Recruiters: TCS, Infosys, L&T, Wipro, Reliance.\n\n" +
+    "Campus Facilities: Large residential campus with hostels, mess, Wi-Fi, labs, sports facilities, library, and medical center.",
+},
+
+{
+  name: "JECRC University, Jaipur",
+  image: "/jec.jpg",
+  description:
+    "JECRC University, Jaipur offers industry-focused 4-year B.Tech programs with modern infrastructure.\n\n" +
+    "Branches: Computer Science & Engineering, Information Technology, Artificial Intelligence, Electronics & Communication Engineering, Mechanical Engineering.\n\n" +
+    "Admission (2025): Through JEE Main / REAP (Rajasthan) / University-level counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹1.6–2.4 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹90,000–1.2 lakh per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹4–6 LPA.\n" +
+    "Highest package: ₹30+ LPA (overall).\n\n" +
+    "Top Recruiters: TCS, Cognizant, Infosys, Wipro, Capgemini.\n\n" +
+    "Campus Facilities: On-campus hostels with mess, Wi-Fi, labs, sports facilities, gym, and medical unit.",
+},
+
+{
+  name: "Poornima College of Engineering, Jaipur",
+  image: "/poo.jpg",
+  description:
+    "Poornima College of Engineering, Jaipur offers industry-oriented 4-year B.Tech programs.\n\n" +
+    "Branches: Computer Science & Engineering, Information Technology, Electronics & Communication Engineering, Mechanical Engineering.\n\n" +
+    "Admission (2025): Through JEE Main + REAP Counselling (Rajasthan).\n\n" +
+    "B.Tech Fees (2025): ~₹1.2–1.8 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹80,000–1.1 lakh per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹4–6 LPA.\n" +
+    "Highest package: ₹15+ LPA.\n\n" +
+    "Campus Facilities: Fully residential campus with hostels, mess, Wi-Fi, labs, sports courts, and campus security.",
+},
+
+{
+  name: "Manipal University Jaipur",
+  image: "/mp.jpg",
+  description:
+    "Manipal University Jaipur (MUJ) offers global-standard 4-year B.Tech programs with modern infrastructure.\n\n" +
+    "Branches: Computer Science & Engineering, Information Technology, Artificial Intelligence, Electronics & Communication Engineering, Mechanical Engineering.\n\n" +
+    "Admission (2025): Through MET / JEE Main / University-level counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹3.0–4.5 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹1.0–1.3 lakh per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹6–8 LPA.\n" +
+    "Highest package: ₹45+ LPA (overall).\n\n" +
+    "Top Recruiters: Microsoft, Amazon, Deloitte, Infosys, TCS.\n\n" +
+    "Campus Facilities: Fully residential campus with modern hostels, Wi-Fi, sports complexes, gym, hospital, and central library.",
+},
+
 ];
 const Uttarakhand: College[] = [
-  {
-    name: "Graphic Era University, Dehradun",
-    image: "/gr.jpeg",
-    description:
-      "Graphic Era University is a leading private engineering university in Uttarakhand known for strong placements and modern infrastructure.\n\n" +
-      "Strong branches: Computer Science, IT, AI, Data Science, ECE, Mechanical Engineering.\n\n" +
-      "Admissions: Through JEE Main / University entrance / Direct admission.\n\n" +
-      "Academics: Offers B.Tech, M.Tech, MBA, MSc, and PhD programs.\n\n" +
-      "Placements: Very good placement performance.\n" +
-      "Average package: ₹5–8 LPA.\n" +
-      "Highest packages: ₹40+ LPA.\n" +
-      "Top recruiters: Amazon, Microsoft, Deloitte, Infosys, TCS.\n\n" +
-      "B.Tech tuition fees: ~₹2.2–3.5 lakh per year.\n" +
-      "Hostel + mess fees: ~₹1.0–1.3 lakh per year.\n\n" +
-      "Hostel: Fully residential campus with modern hostels, Wi-Fi, sports facilities, gym, library, and medical center."
-  },
+{
+  name: "Graphic Era University, Dehradun",
+  image: "/gr.jpeg",
+  description:
+    "Graphic Era University, Dehradun offers industry-focused 4-year B.Tech programs with strong placement support.\n\n" +
+    "Branches: Computer Science & Engineering, Information Technology, Artificial Intelligence, Data Science, Electronics & Communication Engineering, Mechanical Engineering.\n\n" +
+    "Admission (2025): Through JEE Main / University-level entrance / Direct admission.\n\n" +
+    "B.Tech Fees (2025): ~₹2.2–3.5 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹1.0–1.3 lakh per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹5–7.5 LPA.\n" +
+    "Highest package: ₹40+ LPA.\n\n" +
+    "Top Recruiters: Amazon, Microsoft, Deloitte, Infosys, TCS.\n\n" +
+    "Campus Facilities: Fully residential campus with modern hostels, Wi-Fi, sports facilities, gym, library, and medical center.",
+},
+
   {
     name: "UPES, Dehradun",
     image: "/upes.webp",
@@ -311,62 +319,67 @@ const Uttarakhand: College[] = [
       "Hostel + mess fees: ~₹1.1–1.4 lakh per year.\n\n" +
       "Hostel: Fully residential campus with modern hostels, Wi-Fi, sports complexes, library, and medical unit."
   },
-  {
-    name: "DIT University, Dehradun",
-    image: "/dit.webp",
-    description:
-      "DIT University provides industry-focused engineering education with emphasis on skill development and innovation.\n\n" +
-      "Strong branches: Computer Science, IT, ECE, Mechanical Engineering.\n\n" +
-      "Admissions: Through JEE Main / University entrance / Direct admission.\n\n" +
-      "Academics: Offers B.Tech, M.Tech, MBA, and PhD programs.\n\n" +
-      "Placements: Good placement trends.\n" +
-      "Average package: ₹4–6 LPA.\n\n" +
-      "B.Tech tuition fees: ~₹1.8–2.8 lakh per year.\n" +
-      "Hostel + mess fees: ~₹90,000–1.2 lakh per year.\n\n" +
-      "Hostel: On-campus hostels with mess, Wi-Fi, sports facilities, gym, and medical unit."
-  },
-  {
-    name: "GB Pant Institute of Engineering & Technology, Pauri",
-    image: "/gv.jpg",
-    description:
-      "GB Pant Institute of Engineering & Technology (GBPIET) is a government engineering college in Uttarakhand known for affordable education.\n\n" +
-      "Strong branches: Mechanical, Electrical, Electronics, Computer Engineering.\n\n" +
-      "Admissions: Through UKSEE counseling based on JEE Main rank.\n\n" +
-      "Academics: Offers B.Tech and M.Tech programs.\n\n" +
-      "Placements: Moderate placement performance.\n" +
-      "Average package: ₹3–5 LPA.\n\n" +
-      "B.Tech tuition fees: ~₹60,000–80,000 per year.\n" +
-      "Hostel + mess fees: ~₹25,000–35,000 per year.\n\n" +
-      "Hostel: Residential campus with hostels, mess, Wi-Fi, sports facilities, and medical unit."
-  },
-  {
-    name: "Tula’s Institute, Dehradun",
-    image: "/tula.jpg",
-    description:
-      "Tula’s Institute offers B.Tech programs with emphasis on skill-based training and industry readiness.\n\n" +
-      "Strong branches: Computer Science, IT, ECE, Mechanical Engineering.\n\n" +
-      "Admissions: Through JEE Main / University counseling / Direct admission.\n\n" +
-      "Academics: Offers B.Tech and M.Tech programs.\n\n" +
-      "Placements: Growing placement ecosystem.\n" +
-      "Average package: ₹3–5 LPA.\n\n" +
-      "B.Tech tuition fees: ~₹1.4–2.2 lakh per year.\n" +
-      "Hostel + mess fees: ~₹80,000–1.1 lakh per year.\n\n" +
-      "Hostel: On-campus hostels with mess, Wi-Fi, sports courts, library, and campus security."
-  },
-  {
-    name: "ICFAI University, Dehradun",
-    image: "/icfai.jpg",
-    description:
-      "ICFAI University Dehradun offers private engineering education with focus on management-integrated technical programs.\n\n" +
-      "Strong branches: Computer Science, IT, ECE.\n\n" +
-      "Admissions: Through University entrance / Direct admission.\n\n" +
-      "Academics: Offers B.Tech, M.Tech, MBA, and PhD programs.\n\n" +
-      "Placements: Moderate placement performance.\n" +
-      "Average package: ₹3–5 LPA.\n\n" +
-      "B.Tech tuition fees: ~₹1.6–2.5 lakh per year.\n" +
-      "Hostel + mess fees: ~₹90,000–1.2 lakh per year.\n\n" +
-      "Hostel: Residential campus with hostels, mess, Wi-Fi, sports facilities, and campus security."
-  },
+{
+  name: "UPES, Dehradun",
+  image: "/upes.webp",
+  description:
+    "University of Petroleum & Energy Studies (UPES), Dehradun offers specialized 4-year B.Tech programs with strong industry linkage.\n\n" +
+    "Branches: Computer Science & Engineering, Artificial Intelligence, Data Science, Petroleum Engineering, Mechanical Engineering, Electronics & Communication Engineering.\n\n" +
+    "Admission (2025): Through UPESEAT / JEE Main / Board merit-based admission.\n\n" +
+    "B.Tech Fees (2025): ~₹3.0–4.5 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹1.1–1.4 lakh per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹5–7 LPA.\n" +
+    "Highest package: ₹35+ LPA.\n\n" +
+    "Top Recruiters: Schlumberger, ONGC, Accenture, Infosys, TCS.\n\n" +
+    "Campus Facilities: Fully residential campus with modern hostels, Wi-Fi, sports complexes, library, and medical unit.",
+},
+
+{
+  name: "GB Pant Institute of Engineering & Technology, Pauri",
+  image: "/gv.jpg",
+  description:
+    "GB Pant Institute of Engineering & Technology (GBPIET), Pauri is a state government engineering college in Uttarakhand offering affordable B.Tech programs.\n\n" +
+    "Branches: Computer Engineering, Electronics & Communication Engineering, Mechanical Engineering, Electrical Engineering, Civil Engineering.\n\n" +
+    "Admission (2025): Through JEE Main + UKSEE/State Counselling (Uttarakhand).\n\n" +
+    "B.Tech Fees (2025): ~₹60,000–80,000 per year.\n\n" +
+    "Hostel + Mess Fees: ~₹25,000–35,000 per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹3–5 LPA.\n" +
+    "Highest package: ₹8–10 LPA.\n\n" +
+    "Campus Facilities: Fully residential campus with hostels, mess, Wi-Fi, labs, sports facilities, and medical unit.",
+},
+
+{
+  name: "Tula’s Institute, Dehradun",
+  image: "/tula.jpg",
+  description:
+    "Tula’s Institute, Dehradun offers skill-oriented 4-year B.Tech programs with focus on industry readiness.\n\n" +
+    "Branches: Computer Science & Engineering, Information Technology, Electronics & Communication Engineering, Mechanical Engineering.\n\n" +
+    "Admission (2025): Through JEE Main / University-level counselling / Direct admission.\n\n" +
+    "B.Tech Fees (2025): ~₹1.4–2.2 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹80,000–1.1 lakh per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹3–5 LPA.\n" +
+    "Highest package: ₹10+ LPA.\n\n" +
+    "Campus Facilities: On-campus hostels with mess, Wi-Fi, labs, library, sports courts, and campus security.",
+},
+
+{
+  name: "ICFAI University, Dehradun",
+  image: "/icfai.jpg",
+  description:
+    "ICFAI University, Dehradun offers management-integrated 4-year B.Tech programs in a private university setup.\n\n" +
+    "Branches: Computer Science & Engineering, Information Technology, Electronics & Communication Engineering.\n\n" +
+    "Admission (2025): Through University-level entrance / Direct admission.\n\n" +
+    "B.Tech Fees (2025): ~₹1.6–2.5 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹90,000–1.2 lakh per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹3–5 LPA.\n" +
+    "Highest package: ₹8–10 LPA.\n\n" +
+    "Campus Facilities: Fully residential campus with hostels, mess, Wi-Fi, labs, sports facilities, and campus security.",
+},
+
 ];
 
 
