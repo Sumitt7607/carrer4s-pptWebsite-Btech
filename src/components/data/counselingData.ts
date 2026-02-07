@@ -135,11 +135,6 @@ export const counselingData: CounselingInfo[] = [
     }
   ],
 
-  // importantDates: [
-  //   { event: "Registration", date: "June 3, 2025", status: "Completed" },
-  //   { event: "Round 1 Allotment", date: "June 14, 2025", status: "Completed" },
-  //   { event: "Final Round", date: "July 2025", status: "Completed" }
-  // ],
 
   faqs: [
     {

@@ -7,8 +7,8 @@ import { cn } from "@/lib/utils";
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Arjun Sharma",
-    photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+    name: "user1",
+    photo: "/boy1.jpeg",
     college: "IIT Delhi",
     course: "B.Tech Computer Science",
     year: 2024,
@@ -18,8 +18,8 @@ const testimonials: Testimonial[] = [
   },
   {
     id: 2,
-    name: "Ritika Verma",
-    photo: "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+    name: "user2",
+    photo: "/boy2 (2).jpeg",
     college: "NIT Trichy",
     course: "B.Tech Mechanical",
     year: 2024,
@@ -29,8 +29,8 @@ const testimonials: Testimonial[] = [
   },
   {
     id: 3,
-    name: "Aman Singh",
-    photo: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e",
+    name: "user3",
+    photo: "/boy3.jpeg",
     college: "DTU Delhi",
     course: "B.Tech Electrical",
     year: 2023,
@@ -40,8 +40,8 @@ const testimonials: Testimonial[] = [
   },
   {
     id: 4,
-    name: "Neha Patel",
-    photo: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80",
+    name: "user4",
+    photo: "/boy7.jpeg",
     college: "VIT Vellore",
     course: "B.Tech IT",
     year: 2024,
@@ -49,6 +49,40 @@ const testimonials: Testimonial[] = [
     quote:
       "Stress-free admission journey with excellent support at every step.",
   },
+    {
+    id: 5,
+    name: "user5",
+    photo: "/boy5.jpeg",
+    college: "VIT Vellore",
+    course: "B.Tech IT",
+    year: 2024,
+    rating: 5,
+    quote:
+      "Stress-free admission journey with excellent support at every step.",
+  },
+  {
+    id: 6,
+    name: "user6",
+    photo: "/boy8.jpeg",
+    college: "IIT Bombay",
+    course: "B.Tech Civil",
+    year: 2023,
+    rating: 4,
+    quote:
+      "The counseling helped me choose the right branch and college based on my JEE rank.",
+  },
+  {
+    id: 7,
+    name: "user7",              
+    photo: "/boy4.jpeg",
+    college: "NIT Warangal",
+    course: "B.Tech ECE",             
+    year: 2024,
+    rating: 5,
+    quote:
+      "Got my dream NIT because of proper guidance and transparent counseling.",  
+  }
+
 ];
 
 type Position = "current" | "prev" | "next" | "hidden";

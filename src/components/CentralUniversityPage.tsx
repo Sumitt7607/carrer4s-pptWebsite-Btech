@@ -217,7 +217,7 @@ const colleges: Colleges[] = [
     "National Institute of Electronics and Information Technology (NIELIT), Aurangabad is a government-funded technical institute under the Ministry of Electronics & Information Technology, Government of India,\n\n" +
     "Branches: B.Tech in Electronics System Engineering and Computer Science & Engineering \n\n" +
     "Admission (2025): Through JEE Main rank via JoSAA/CSAB counselling for B.Tech programs.\n\n" +
-    "B.Tech Fees (2025): ~₹4.0–4.5 lakh total tuition for full 4 years (~₹1.0–1.15 lakh per year approx).([turn0search2](#):\n\n" +
+    "B.Tech Fees (2025): ~₹4.0–4.5 lakh total tuition for full 4 years (~₹1.0–1.15 lakh per year approx).:\n\n" +
     "Hostel + Mess Fees: ~₹80,000–1.0 lakh per year (approx, varies by room and block).\n\n" +
 
     "• Overall average package: ~₹4.0–4.5 LPA (batch-wide, moderate),\n" +
@@ -668,19 +668,31 @@ const [selectedCollege, setSelectedCollege] = useState<Colleges | null>(null);
       {/* Modal */}
       <AnimatePresence>
         {selectedCollege && (
+         <motion.div
+  className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center px-3 sm:px-6"
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  exit={{ opacity: 0 }}
+>
+
           <motion.div
-            className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center px-4"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-          >
-            <motion.div
-              className="relative bg-[#111] rounded-2xl max-w-lg w-full p-6 border border-orange-500/40"
-              initial={{ scale: 0.8, y: 50 }}
-              animate={{ scale: 1, y: 0 }}
-              exit={{ scale: 0.8, y: 50 }}
-              transition={{ duration: 0.3 }}
-            >
+  className="
+    relative 
+    bg-[#111] 
+    rounded-2xl 
+    w-full 
+    max-w-lg 
+    max-h-[90vh] 
+    overflow-hidden 
+    border 
+    border-orange-500/40
+  "
+  initial={{ scale: 0.85, y: 60 }}
+  animate={{ scale: 1, y: 0 }}
+  exit={{ scale: 0.85, y: 60 }}
+  transition={{ duration: 0.3 }}
+>
+
               {/* Cross Button */}
               <button
                 onClick={() => setSelectedCollege(null)}
@@ -697,6 +709,7 @@ const [selectedCollege, setSelectedCollege] = useState<Colleges | null>(null);
               /> */}
 
               {/* Content */}
+              <div className="overflow-y-auto max-h-[90vh] p-5 sm:p-6">
               <h2 className="text-2xl font-bold text-orange-400 mb-2">
                 {selectedCollege.name}
               </h2>
@@ -704,6 +717,7 @@ const [selectedCollege, setSelectedCollege] = useState<Colleges | null>(null);
          <p className="whitespace-pre-line text-gray-300 text-sm leading-relaxed">
   {selectedCollege.description}
 </p>
+</div>
 
               <p className="mt-4 text-sm text-gray-400">
                 Central Government University • B.Tech Admissions

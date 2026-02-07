@@ -29,25 +29,6 @@ const colleges: College[] = [
 },
 
 
-{
-  name: "Amity University, Noida",
-  image: "/amity.webp",
-  description:
-    "Amity University, Noida is a large private university offering B.Tech programs with wide branch availability and strong exposure to mass-recruiter hiring.\n\n" +
-    "Branches: Computer Science & Engineering, Artificial Intelligence, Information Technology, Electronics & Communication Engineering, Mechanical Engineering.\n\n" +
-    "Admission (2025): Through Amity JEE / CUET / Board merit-based direct admission.\n\n" +
-    "B.Tech Fees (2025):\n" +
-    "• CSE / AI / IT: ~₹3.0–3.5 lakh per year\n" +
-    "• Core branches (ECE / Mechanical): ~₹2.5–3.0 lakh per year\n\n" +
-    "Hostel + Mess Fees: ~₹1.2–1.5 lakh per year.\n\n" +
-    "Placements (2024–25):\n" +
-    "• Overall average package: ~₹3.8–4.5 LPA\n" +
-    "• CSE / IT average: ~₹4.8–5.8 LPA\n" +
-    "• Median package: ~₹4.0 LPA\n" +
-    "• Highest package: ~₹25–30 LPA (very few, mostly off-campus / niche roles)\n\n" +
-    "Top Recruiters: TCS, Cognizant, Accenture, Infosys, Wipro (majority mass hiring).\n\n" +
-    "Campus Facilities: Very large urban campus with hostels, Wi-Fi, labs, sports facilities, gyms, central library, and medical center.",
-},
 
 
 {
@@ -88,26 +69,6 @@ const colleges: College[] = [
     "• Highest package: ~₹45–50 LPA (very limited, mostly off-campus / international)\n\n" +
     "Top Recruiters: Microsoft, Amazon, Goldman Sachs, Deloitte, Nvidia, Qualcomm.\n\n" +
     "Campus Facilities: Fully residential campus with modern hostels, Wi-Fi, advanced labs, sports facilities, gyms, hospital, and central library.",
-},
-
-{
-  name: "Lovely Professional University",
-  image: "/lpu.jpg",
-  description:
-    "Lovely Professional University (LPU), Phagwara is a large private university offering B.Tech programs with wide branch availability and strong exposure to mass-recruiter hiring.\n\n" +
-    "Branches: Computer Science & Engineering, Information Technology, Artificial Intelligence, Electronics & Communication Engineering, Mechanical Engineering.\n\n" +
-    "Admission (2025): Through LPUNEST / CUET / Board merit-based direct admission.\n\n" +
-    "B.Tech Fees (2025):\n" +
-    "• CSE / AI / IT: ~₹2.5–3.0 lakh per year\n" +
-    "• Core branches (ECE / Mechanical): ~₹1.8–2.3 lakh per year\n\n" +
-    "Hostel + Mess Fees: ~₹90,000–1.2 lakh per year (room & block dependent).\n\n" +
-    "Placements (2024–25):\n" +
-    "• Overall average package: ~₹3.5–4.2 LPA\n" +
-    "• CSE / IT average: ~₹4.5–5.2 LPA\n" +
-    "• Median package: ~₹3.6 LPA\n" +
-    "• Highest package: ~₹28–30 LPA (very few off-campus / international offers)\n\n" +
-    "Top Recruiters: TCS, Cognizant, Capgemini, Infosys, Accenture (mostly mass hiring).\n\n" +
-    "Campus Facilities: Very large residential campus with hostels, Wi-Fi, labs, sports complexes, gyms, shopping areas, and medical facilities.",
 },
 
 
@@ -253,23 +214,7 @@ const Ipu: College[] = [
     "Campus Facilities: Compact urban campus with modern labs, library, sports activities, and active student societies.",
 },
 
-// {
-//   name: "Bhagwan Parshuram Institute of Technology (BPIT)",
-//   image: "https://www.static-contents.youth4work.com/university/Documents/Colleges/CollegeImages/c20a978a-4e71-4fa6-9767-d3dc018cef32.jpg",
-//   description:
-//     "Bhagwan Parshuram Institute of Technology (BPIT), Rohini is a private engineering college under GGSIPU offering B.Tech programs with a focus on core academics and gradual improvement in placements.\n\n" +
-//     "Branches: Computer Science & Engineering, Information Technology, Electronics & Communication Engineering.\n\n" +
-//     "Admission (2025): Through JEE Main rank via GGSIPU (IPU) Counselling.\n\n" +
-//     "B.Tech Fees (2025): ~₹1.6–1.8 lakh per year.\n\n" +
-//     "Placements (2024–25):\n" +
-//     "• Overall average package: ~₹3.8–4.5 LPA\n" +
-//     "• CSE / IT average: ~₹4.5–5.2 LPA\n" +
-//     "• Median package: ~₹4.0 LPA\n" +
-//     "• Highest package: ~₹18–20 LPA (very few off-campus / PPO cases)\n\n" +
-//     "Top Recruiters: TCS, Infosys, Accenture, Capgemini, HCL (primarily mass & mid-tier recruiters).\n\n" +
-//     "Campus Facilities: Compact urban campus with labs, library, basic sports facilities, and active student societies.",
-// },
-
+ 
 
 {
   name: "Guru Tegh Bahadur Institute of Technology (GTBIT)",
@@ -349,6 +294,212 @@ const Ipu: College[] = [
 },
 
 ];
+const Others: College[] = [
+  {
+  name: "Galgotias College of Engineering & Technology (GCET)",
+  image: "https://img.jagranjosh.com/images/2022/December/19122022/Galgotias-College-of-Engineering-and-Technology-Greater-Noida-Campus-View-3.jpg",
+  description:
+    "Galgotias College of Engineering & Technology (GCET) is an AKTU-affiliated private engineering college known for structured academics and consistent placements.\n\n" +
+    "Branches: Computer Science & Engineering, Information Technology, Electronics & Communication Engineering, Mechanical Engineering, Civil Engineering.\n\n" +
+    "Admission (2025): Through JEE Main + AKTU Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹1.5–1.8 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹90,000–1.2 lakh per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹3.5–4.5 LPA.\n" +
+    "Highest package: ₹12–15 LPA.\n\n" +
+    "Campus Facilities: Hostels, Wi-Fi campus, labs, library, sports facilities, and training centers.",
+},
+
+  {
+  name: "Jaypee Institute of Information Technology (JIIT), Noida",
+  image: "https://media.getmyuni.com/azure/college-image/big/jaypee-institute-of-information-technology-university-jiitu-noida.jpg",
+  description:
+    "Jaypee Institute of Information Technology (JIIT), Noida is a reputed private deemed university known for strong academics and placements in computer-related branches.\n\n" +
+    "Branches: Computer Science & Engineering, Information Technology, Electronics & Communication Engineering.\n\n" +
+    "Admission (2025): Through JEE Main (JoSAA-style counselling by institute).\n\n" +
+    "B.Tech Fees (2025): ~₹3–3.5 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹1.2–1.5 lakh per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹6–8 LPA.\n" +
+    "Highest package: ₹40+ LPA.\n\n" +
+    "Campus Facilities: Fully residential campus, modern hostels, Wi-Fi, advanced labs, library, sports facilities, and strong coding culture.",
+},
+
+{
+  name: "KIET Group of Institutions, Ghaziabad",
+  image: "https://tse4.mm.bing.net/th/id/OIP.isjt3g4ZEmNX7hJNuj-O8AHaFS?rs=1&pid=ImgDetMain&o=7&rm=3",
+  description:
+    "KIET Group of Institutions is a reputed private engineering college affiliated with AKTU, known for discipline, academics, and stable placement records.\n\n" +
+    "Branches: Computer Science & Engineering, Information Technology, Electronics & Communication Engineering, Mechanical Engineering, Electrical Engineering.\n\n" +
+    "Admission (2025): Through JEE Main + AKTU Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹1.4–1.7 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹85,000–1.1 lakh per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹4–6 LPA.\n" +
+    "Highest package: ₹20+ LPA.\n\n" +
+    "Campus Facilities: Residential campus, hostels, Wi-Fi, modern labs, central library, and sports complexes.",
+},
+
+{
+  name: "JSS Academy of Technical Education, Noida",
+  image: "https://www.jssaten.ac.in/assets/a7.jpg",
+  description:
+    "JSS Academy of Technical Education, Noida is one of the top private engineering colleges affiliated with AKTU, known for discipline, academics, and alumni strength.\n\n" +
+    "Branches: Computer Science & Engineering, Information Technology, Electronics & Communication Engineering, Electrical Engineering, Mechanical Engineering.\n\n" +
+    "Admission (2025): Through JEE Main + AKTU Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹1.6–1.9 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹80,000–1.1 lakh per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹4–6 LPA.\n" +
+    "Highest package: ₹20+ LPA.\n\n" +
+    "Campus Facilities: Hostels, Wi-Fi-enabled campus, well-equipped labs, library, sports grounds, and placement training.",
+},
+
+{
+  name: "Ajay Kumar Garg Engineering College (AKGEC), Ghaziabad",
+  image: "https://ik.imagekit.io/syustaging/SYU_PREPROD/Ajay-Kumar-Garg-Engineering-College---_AKGEC_-_Ghaziabad-_Uttar-Pradesh_TLXoEstsMh.webp?tr=w-3840",
+  description:
+    "Ajay Kumar Garg Engineering College (AKGEC) is a top-ranked private engineering college affiliated with AKTU and known for excellent placements.\n\n" +
+    "Branches: Computer Science & Engineering, Information Technology, Electronics & Communication Engineering, Mechanical Engineering, Electrical Engineering.\n\n" +
+    "Admission (2025): Through JEE Main + AKTU Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹1.5–1.8 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹80,000–1.1 lakh per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹5–7 LPA.\n" +
+    "Highest package: ₹30+ LPA.\n\n" +
+    "Campus Facilities: Hostels, Wi-Fi campus, advanced labs, library, sports facilities, and strong industry training.",
+},
+
+]
+const commedk: College[] = [
+  {
+  name: "RV College of Engineering (RVCE), Bangalore",
+  image: "https://www.collegedhundo.com/images/blog/rv-college-bangalore.jpg",
+  description:
+    "RV College of Engineering (RVCE), Bangalore is the top-ranked private engineering college under COMEDK and is known for excellent academics, infrastructure, and placements.\n\n" +
+    "Branches: Computer Science & Engineering, Artificial Intelligence, Electronics & Communication Engineering, Electrical Engineering, Mechanical Engineering.\n\n" +
+    "Admission (2025): Through COMEDK UGET Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹2.8–3 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹1–1.3 lakh per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹10–12 LPA.\n" +
+    "Highest package: ₹60+ LPA.\n\n" +
+    "Campus Facilities: Autonomous campus, hostels, Wi-Fi, advanced labs, central library, sports facilities, and strong industry connections.",
+},
+{
+  name: "BMS College of Engineering (BMSCE), Bangalore",
+  image: "https://img.jagranjosh.com/images/2022/December/1122022/BMS-College-of-Engineering-Bangalore-Campus-View-3.jpg",
+  description:
+    "BMS College of Engineering is one of the oldest and most reputed engineering colleges in Bangalore accepting COMEDK ranks.\n\n" +
+    "Branches: Computer Science & Engineering, Artificial Intelligence, Electronics & Communication Engineering, Electrical Engineering, Mechanical Engineering.\n\n" +
+    "Admission (2025): Through COMEDK UGET Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹2.6–2.9 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹90,000–1.2 lakh per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹7–9 LPA.\n" +
+    "Highest package: ₹50+ LPA.\n\n" +
+    "Campus Facilities: Hostels, Wi-Fi campus, modern labs, library, sports complex, and active placement cell.",
+},
+{
+  name: "MS Ramaiah Institute of Technology (MSRIT), Bangalore",
+  image: "https://www.collegedhundo.com/images/college/msrit-1170x560.jpg",
+  description:
+    "MS Ramaiah Institute of Technology is a premier autonomous engineering college in Bangalore with strong placement records under COMEDK.\n\n" +
+    "Branches: Computer Science & Engineering, Artificial Intelligence, Electronics & Communication Engineering, Electrical Engineering, Mechanical Engineering.\n\n" +
+    "Admission (2025): Through COMEDK UGET Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹2.5–2.8 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹1–1.3 lakh per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹7–8 LPA.\n" +
+    "Highest package: ₹45+ LPA.\n\n" +
+    "Campus Facilities: Urban campus, hostels, Wi-Fi, advanced labs, library, sports facilities, and industry exposure.",
+},
+{
+  name: "Dayananda Sagar College of Engineering (DSCE), Bangalore",
+  image: "https://www.targetadmission.com/img/colleges/newc/30422-88483.jpg",
+  description:
+    "Dayananda Sagar College of Engineering is a popular COMEDK college in Bangalore known for balanced academics and placements.\n\n" +
+    "Branches: Computer Science & Engineering, Artificial Intelligence, Electronics & Communication Engineering, Mechanical Engineering.\n\n" +
+    "Admission (2025): Through COMEDK UGET Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹2.4–2.7 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹90,000–1.2 lakh per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹5–6 LPA.\n" +
+    "Highest package: ₹25+ LPA.\n\n" +
+    "Campus Facilities: Large campus, hostels, Wi-Fi, labs, library, sports grounds, and placement training programs.",
+},
+{
+  name: "Bangalore Institute of Technology (BIT), Bangalore",
+  image: "https://bit-bangalore.edu.in/assets/images/lifebit/bit-campus-1.jpg",
+  description:
+    "Bangalore Institute of Technology is a well-known private engineering college under COMEDK with consistent placement performance.\n\n" +
+    "Branches: Computer Science & Engineering, Information Science, Electronics & Communication Engineering, Electrical Engineering, Mechanical Engineering.\n\n" +
+    "Admission (2025): Through COMEDK UGET Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹2.3–2.6 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹80,000–1.1 lakh per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹4–6 LPA.\n" +
+    "Highest package: ₹18–20 LPA.\n\n" +
+    "Campus Facilities: City campus, hostels, Wi-Fi, laboratories, library, sports facilities, and placement support.",
+},
+{
+  name: "Nitte Meenakshi Institute of Technology (NMIT), Bangalore",
+  image: "https://www.collegedhundo.com/images/blog/mainBuilding.jpg",
+  description:
+    "Nitte Meenakshi Institute of Technology (NMIT) is a popular COMEDK college in Bangalore known for consistent placements and good infrastructure.\n\n" +
+    "Branches: Computer Science & Engineering, Artificial Intelligence, Information Science, Electronics & Communication Engineering, Mechanical Engineering.\n\n" +
+    "Admission (2025): Through COMEDK UGET Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹2.3–2.6 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹90,000–1.2 lakh per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹4–5.5 LPA.\n" +
+    "Highest package: ₹18–22 LPA.\n\n" +
+    "Campus Facilities: Spacious campus, hostels, Wi-Fi, modern labs, library, and sports amenities.",
+},
+{
+  name: "BNM Institute of Technology (BNMIT), Bangalore",
+  image: "https://tse2.mm.bing.net/th/id/OIP.4AqMJDHDk35O-IxPxiGoSQHaDf?rs=1&pid=ImgDetMain&o=7&rm=3",
+  description:
+    "BNM Institute of Technology (BNMIT) is a well-established private engineering college under COMEDK with a strong academic environment.\n\n" +
+    "Branches: Computer Science & Engineering, Information Science, Electronics & Communication Engineering, Electrical Engineering, Mechanical Engineering.\n\n" +
+    "Admission (2025): Through COMEDK UGET Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹2.2–2.5 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹80,000–1.1 lakh per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹4–5 LPA.\n" +
+    "Highest package: ₹15–18 LPA.\n\n" +
+    "Campus Facilities: City campus, hostels, Wi-Fi-enabled campus, labs, library, and sports facilities.",
+},
+{
+  name: "CMR Institute of Technology (CMRIT), Bangalore",
+  image: "https://www.cmrit.ac.in/wp-content/uploads/2021/07/about_overview-1.jpg",
+  description:
+    "CMR Institute of Technology (CMRIT) is a fast-growing COMEDK college in Bangalore known for industry tie-ups and practical learning.\n\n" +
+    "Branches: Computer Science & Engineering, Artificial Intelligence, Information Science, Electronics & Communication Engineering, Mechanical Engineering.\n\n" +
+    "Admission (2025): Through COMEDK UGET Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹2.3–2.6 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹90,000–1.2 lakh per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹4–5.5 LPA.\n" +
+    "Highest package: ₹18–20 LPA.\n\n" +
+    "Campus Facilities: Modern campus, hostels, Wi-Fi, innovation labs, library, and sports facilities.",
+},
+{
+  name: "The National Institute of Engineering (NIE), Mysuru",
+  image: "https://www.comedk.org/uploads/nie-1.jpg",
+  description:
+    "The National Institute of Engineering (NIE), Mysuru is one of the oldest engineering colleges in Karnataka and a preferred COMEDK choice.\n\n" +
+    "Branches: Computer Science & Engineering, Information Science, Electronics & Communication Engineering, Electrical Engineering, Mechanical Engineering.\n\n" +
+    "Admission (2025): Through COMEDK UGET Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹2.2–2.5 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹70,000–1 lakh per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹4.5–6 LPA.\n" +
+    "Highest package: ₹20+ LPA.\n\n" +
+    "Campus Facilities: Heritage campus, hostels, Wi-Fi, labs, library, sports facilities, and strong alumni network.",
+},
+
+]
 
 
 const containerVariants: Variants = {
@@ -398,16 +549,29 @@ const DeemedPrivatePage = () => {
             variants={cardVariants}
             whileHover={{ scale: 1.05 }}
             onClick={() => setSelectedCollege(college)}
-            className="cursor-pointer bg-[#111] rounded-2xl overflow-hidden shadow-lg 
-                       border border-orange-500/30 hover:border-orange-500 transition-all"
+             className="
+    group cursor-pointer
+    bg-gradient-to-br from-[#111] to-[#0b0b0b]
+    rounded-2xl overflow-hidden
+    border border-orange-500/20
+    hover:border-orange-500
+    shadow-[0_0_0_rgba(0,0,0,0)]
+    hover:shadow-[0_0_30px_rgba(255,140,0,0.25)]
+    transition-all duration-300
+  "
           >
             {/* Image */}
             <div className="h-44 w-full overflow-hidden">
-              <img
-                src={college.image}
-                alt={college.name}
-                className="h-full w-full object-cover hover:scale-110 transition-transform duration-500"
-              />
+     <img
+  src={college.image}
+  alt={college.name}
+  className="
+    h-full w-full object-cover
+    transition-transform duration-700
+    group-hover:scale-110
+  "
+/>
+
             </div>
 
             {/* Text */}
@@ -458,10 +622,16 @@ const DeemedPrivatePage = () => {
 
             {/* Text */}
             <div className="p-5 text-center">
-              <h2 className="text-lg md:text-xl font-semibold text-orange-400">
-                {college.name}
-              </h2>
-            </div>
+  <h2 className="text-lg md:text-xl font-semibold text-orange-400">
+    {college.name}
+  </h2>
+  
+
+  <p className="mt-1 text-xs text-gray-400">
+    B.Tech • Admissions 2026
+  </p>
+</div>
+
           </motion.div>
         ))}
       </motion.div>
@@ -473,42 +643,62 @@ const DeemedPrivatePage = () => {
       {/* Modal Popup */}
       <AnimatePresence>
         {selectedCollege && (
-          <motion.div
-            className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center px-4"
+        <motion.div
+  className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center px-3 sm:px-6"
+
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
             <motion.div
-              className="relative bg-[#111] rounded-2xl max-w-lg w-full p-6 border border-orange-500/40"
-              initial={{ scale: 0.8, y: 50 }}
-              animate={{ scale: 1, y: 0 }}
-              exit={{ scale: 0.8, y: 50 }}
-              transition={{ duration: 0.3 }}
-            >
-              {/* Cross Button */}
-              <button
-                onClick={() => setSelectedCollege(null)}
-                className="absolute top-3 right-3 text-gray-400 hover:text-orange-500 text-xl"
-              >
-                ✕
-              </button>
+ className="
+    relative bg-[#111]
+    rounded-2xl w-full max-w-lg
+    max-h-[90vh] overflow-hidden
+    border border-orange-500/40
+    shadow-[0_0_40px_rgba(255,140,0,0.25)]
+  "
+  initial={{ scale: 0.85, y: 60 }}
+  animate={{ scale: 1, y: 0 }}
+  exit={{ scale: 0.85, y: 60 }}
+  transition={{ duration: 0.3 }}
+>
 
-              {/* Image */}
-      
+              {/* Cross Button */}
+          <button
+  onClick={() => setSelectedCollege(null)}
+  className="
+    absolute top-3 right-3 z-10
+    w-9 h-9 flex items-center justify-center
+    rounded-full bg-black/60
+    border border-orange-500/30
+    text-orange-400 hover:bg-orange-500 hover:text-black
+    transition
+  "
+>
+  ✕
+</button>
 
               {/* Content */}
-              <h2 className="text-2xl font-bold text-orange-400 mb-2">
-                {selectedCollege.name}
-              </h2>
-<p className="whitespace-pre-line text-gray-300 text-sm leading-relaxed">
-  {selectedCollege.description}
-</p>
+        <div className="overflow-y-auto max-h-[90vh] p-5 sm:p-6 text-[13px] sm:text-sm">
+  <h2 className="text-lg sm:text-2xl font-bold text-orange-400 mb-2">
+    {selectedCollege.name}
+  </h2>
+
+  <div className="h-px w-full bg-gradient-to-r from-orange-500/40 to-transparent mb-4" />
+
+  <div className="bg-black/40 rounded-xl p-4 border border-orange-500/10">
+    <p className="whitespace-pre-line text-gray-300 leading-relaxed">
+      {selectedCollege.description}
+    </p>
+  </div>
+
+  <p className="mt-4 text-xs text-gray-400">
+     Private University • B.Tech Admissions
+  </p>
+</div>
 
 
-              <p className="mt-4 text-sm text-gray-400">
-                Deemed / Private University • B.Tech Admissions
-              </p>
             </motion.div>
           </motion.div>
         )}
@@ -516,7 +706,105 @@ const DeemedPrivatePage = () => {
       </AnimatePresence>
       
     </section>
-         
+     <motion.h1
+        className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-orange-500 mb-14 text-center"
+        initial={{ opacity: 0, y: -30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+      >
+        Other Private Colleges & University in NCR
+      </motion.h1>
+         <motion.div
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto"
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
+      >
+        {Others.map((college, idx) => (
+          <motion.div
+            key={idx}
+            variants={cardVariants}
+            whileHover={{ scale: 1.05 }}
+            onClick={() => setSelectedCollege(college)}
+            className="cursor-pointer bg-[#111] rounded-2xl overflow-hidden shadow-lg 
+                       border border-orange-500/30 hover:border-orange-500 transition-all"
+          >
+            {/* Image */}
+            <div className="h-44 w-full overflow-hidden">
+              <img
+                src={college.image}
+                alt={college.name}
+                className="h-full w-full object-cover hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+
+            {/* Text */}
+            <div className="p-5 text-center">
+  <h2 className="text-lg md:text-xl font-semibold text-orange-400">
+    {college.name}
+  </h2>
+  
+
+  <p className="mt-1 text-xs text-gray-400">
+    B.Tech • Admissions 2026
+  </p>
+</div>
+
+          </motion.div>
+        ))}
+      </motion.div>
+
+ <motion.h1
+        className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-orange-500 mb-14 text-center"
+        initial={{ opacity: 0, y: -30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+      >
+        Top colleges & universities of Karnataka
+      </motion.h1>
+      <motion.div
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto"
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
+      >
+        {commedk.map((college, idx) => (
+          <motion.div
+            key={idx}
+            variants={cardVariants}
+            whileHover={{ scale: 1.05 }}
+            onClick={() => setSelectedCollege(college)}
+            className="cursor-pointer bg-[#111] rounded-2xl overflow-hidden shadow-lg 
+                       border border-orange-500/30 hover:border-orange-500 transition-all"
+          >
+            {/* Image */}
+            <div className="h-44 w-full overflow-hidden">
+              <img
+                src={college.image}
+                alt={college.name}
+                className="h-full w-full object-cover hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+
+            {/* Text */}
+            <div className="p-5 text-center">
+  <h2 className="text-lg md:text-xl font-semibold text-orange-400">
+    {college.name}
+  </h2>
+  
+
+  <p className="mt-1 text-xs text-gray-400">
+    B.Tech • Admissions 2026
+  </p>
+</div>
+
+          </motion.div>
+        ))}
+      </motion.div>
+
+
+
+
         </>
   );
 };

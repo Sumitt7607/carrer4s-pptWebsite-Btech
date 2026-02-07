@@ -98,9 +98,9 @@ const AdmissionDetail = () => {
         {/* Contact */}
         <Section icon={<Phone className="h-5 w-5" />} title="Contact Us for Inquiries">
           <div className="flex flex-wrap gap-4">
-            <ContactButton icon={<Phone className="h-4 w-4" />} label="+91 98765 43210" href="tel:+919876543210" />
-            <ContactButton icon={<Mail className="h-4 w-4" />} label="info@btechadmissions.com" href="mailto:info@btechadmissions.com" />
-            <ContactButton icon={<MessageCircle className="h-4 w-4" />} label="WhatsApp Us" href="https://wa.me/919876543210" />
+            <ContactButton icon={<Phone className="h-4 w-4" />} label="+91 9910992965" href="tel:+919910992965" />
+            {/* <ContactButton icon={<Mail className="h-4 w-4" />} label="info@btechadmissions.com" href="mailto:info@btechadmissions.com" />
+            <ContactButton icon={<MessageCircle className="h-4 w-4" />} label="WhatsApp Us" href="https://wa.me/919876543210" /> */}
           </div>
         </Section>
       </div>

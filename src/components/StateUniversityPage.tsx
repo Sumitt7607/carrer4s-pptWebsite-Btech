@@ -175,6 +175,45 @@ const colleges: College[] = [
     "Highest package: ₹15+ LPA.\n\n" +
     "Campus Facilities: Limited hostel facilities, mess, Wi-Fi-enabled campus, library, labs, and sports areas."
 },
+{
+  name: "Govind Ballabh Pant Government Engineering College (GBPGEC)",
+  image: "https://media.getmyuni.com/azure/college-image/big/govind-ballabh-pant-engineering-college-gbpec-new-delhi.jpg",
+  description:
+    "Govind Ballabh Pant Government Engineering College (often referred to as GB Pant College) is a government engineering institute in New Delhi affiliated with Guru Gobind Singh Indraprastha University and approved by AICTE.\n\n" +
+    "Branches: Computer Science & Engineering, Electronics & Communication Engineering, Mechanical & Automation Engineering.\n\n" +
+    "Admission (2026): Through IPU CET / JEE Main + JAC Delhi Counselling (depending on admission criteria updates).\n\n" +
+    "B.Tech Fees (2026): ~₹1.5–1.7 lakh per year (~₹6–7 lakh total) depending on course and components. :contentReference[oaicite:0]{index=0}\n\n" +
+    "Hostel + Mess Fees: No official hostel on campus, students usually arrange PGs nearby (~₹70,000–1.2 lakh per year typical range in Delhi area).\n\n" +
+    "Placements (2025): Average ~₹3–6 LPA; placement assistance minimal with some students choosing off-campus offers. :contentReference[oaicite:1]{index=1}\n\n" +
+    "Campus Facilities: Basic labs, library, sports areas, classrooms; limited dedicated on-campus accommodation. :contentReference[oaicite:2]{index=2}"
+},
+{
+  name: "Delhi Skill and Entrepreneurship University (DSEU) – GB Pant Campus",
+  image: "https://www.dseu.ac.in/campuses/wazirpur.jpg",
+  description:
+    "Delhi Skill and Entrepreneurship University (DSEU) is a state university in New Delhi focused on skill-based and industry-relevant education including engineering programs. GB Pant is one of its prominent campuses offering technical courses. :contentReference[oaicite:3]{index=3}\n\n" +
+    "Branches: B.Tech (Computer Science, Electronics & Communication, Mechanical etc.), B.Tech Lateral, M.Tech and various diploma/polytechnic courses. :contentReference[oaicite:4]{index=4}\n\n" +
+    "Admission (2026): Through **JEE Main + JAC Delhi Counselling / merit system** depending on program. :contentReference[oaicite:5]{index=5}\n\n" +
+    "B.Tech Fees (2026): ~₹5.85–6 lakh total for full B.Tech program (~₹1.4–1.6 lakh per year). :contentReference[oaicite:6]{index=6}\n\n" +
+    "Hostel + Mess Fees: Hostel available with basic amenities, typical hostel + mess ~₹40,000–70,000 per year (varies by campus & amenities). :contentReference[oaicite:7]{index=7}\n\n" +
+    "Placements (2025): Average packages around **₹4–6 LPA**, with some higher offers and strong internship opportunities; companies participate in job festivals. :contentReference[oaicite:8]{index=8}\n\n" +
+    "Campus Facilities: Library, labs, sports, industry-oriented skill labs, workshops and training centers. :contentReference[oaicite:9]{index=9}"
+},
+{
+  name: "Indira Gandhi Delhi Technical University for Women (IGDTUW)",
+  image: "https://tse2.mm.bing.net/th/id/OIP.Tz31hL2RkHpKdF4PHzoYsgHaDz?rs=1&pid=ImgDetMain&o=7&rm=3",
+  description:
+    "Indira Gandhi Delhi Technical University for Women (IGDTUW) is a government engineering and technical university exclusively for women in New Delhi. It was established as Indira Gandhi Institute of Technology and later became a technical university. :contentReference[oaicite:10]{index=10}\n\n" +
+    "Branches: B.Tech (CSE, ECE, IT, Mechanical & Automation, etc.), B.Arch, B.Tech+MBA Dual Degree, M.Tech, MBA, MCA, M.Plan and Ph.D. programs. :contentReference[oaicite:11]{index=11}\n\n" +
+    "Admission (2026): Based on **JEE Main + JAC Delhi Counselling** for B.Tech and respective exams for other programs. :contentReference[oaicite:12]{index=12}\n\n" +
+    "B.Tech Fees (2026): ~₹1.3–1.8 lakh per year (~₹5.2–7.2 lakh total, varies by specialization). :contentReference[oaicite:13]{index=13}\n\n" +
+    "Hostel + Mess Fees: Girl’s hostel available; combined hostel + mess may be ~₹1.4–1.9 lakh per year (approx). :contentReference[oaicite:14]{index=14}\n\n" +
+    "Placements (2025): Strong placements with high recruitment; average packages ~₹10–18 LPA+, highest packages reported significantly higher including premium offers. :contentReference[oaicite:15]{index=15}\n\n" +
+    "Campus Facilities: Fully equipped library, modern labs, sports facilities, research centers, student clubs, and on-campus hostels. :contentReference[oaicite:16]{index=16}"
+}
+
+
+
 
   // {
   //   name: "MAIT",
@@ -304,21 +343,21 @@ const Uttarakhand: College[] = [
     "Campus Facilities: Fully residential campus with modern hostels, Wi-Fi, sports facilities, gym, library, and medical center.",
 },
 
-  {
-    name: "UPES, Dehradun",
-    image: "/upes.webp",
-    description:
-      "UPES Dehradun offers specialized B.Tech programs with strong industry linkage, especially in energy, petroleum, and data science.\n\n" +
-      "Strong branches: Computer Science, AI, Data Science, Petroleum Engineering, Mechanical Engineering.\n\n" +
-      "Admissions: Through UPESEAT / JEE Main / Board merit.\n\n" +
-      "Academics: Offers B.Tech, M.Tech, MBA, MSc, and PhD programs.\n\n" +
-      "Placements: Good placement performance.\n" +
-      "Average package: ₹5–7 LPA.\n" +
-      "Top recruiters: Schlumberger, ONGC, Infosys, TCS, Accenture.\n\n" +
-      "B.Tech tuition fees: ~₹3.0–4.5 lakh per year.\n" +
-      "Hostel + mess fees: ~₹1.1–1.4 lakh per year.\n\n" +
-      "Hostel: Fully residential campus with modern hostels, Wi-Fi, sports complexes, library, and medical unit."
-  },
+  // {
+  //   name: "UPES, Dehradun",
+  //   image: "/upes.webp",
+  //   description:
+  //     "UPES Dehradun offers specialized B.Tech programs with strong industry linkage, especially in energy, petroleum, and data science.\n\n" +
+  //     "Strong branches: Computer Science, AI, Data Science, Petroleum Engineering, Mechanical Engineering.\n\n" +
+  //     "Admissions: Through UPESEAT / JEE Main / Board merit.\n\n" +
+  //     "Academics: Offers B.Tech, M.Tech, MBA, MSc, and PhD programs.\n\n" +
+  //     "Placements: Good placement performance.\n" +
+  //     "Average package: ₹5–7 LPA.\n" +
+  //     "Top recruiters: Schlumberger, ONGC, Infosys, TCS, Accenture.\n\n" +
+  //     "B.Tech tuition fees: ~₹3.0–4.5 lakh per year.\n" +
+  //     "Hostel + mess fees: ~₹1.1–1.4 lakh per year.\n\n" +
+  //     "Hostel: Fully residential campus with modern hostels, Wi-Fi, sports complexes, library, and medical unit."
+  // },
 {
   name: "UPES, Dehradun",
   image: "/upes.webp",
@@ -381,10 +420,38 @@ const Uttarakhand: College[] = [
 },
 
 ];
+const others: College[] = [  
+ {
+  name: "Gautam Buddha University (GBU)",
+  image: "https://tse4.mm.bing.net/th/id/OIP.R3jje0TwvbZJM-2SGm1-AAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3",
+  description:
+    "Gautam Buddha University (GBU), Greater Noida is a state government university established by the Government of Uttar Pradesh, offering full-time 4-year B.Tech programs.\n\n" +
+    "Branches: Computer Science & Engineering, Information Technology, Electronics & Communication Engineering, Electrical Engineering, Mechanical Engineering, Civil Engineering.\n\n" +
+    "Admission (2025): Through JEE Main / CUET-UG / University Counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹1.5–1.8 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹70,000–1 lakh per year.\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹4–6 LPA.\n" +
+    "Highest package: ₹20+ LPA.\n\n" +
+    "Campus Facilities: Fully residential campus, hostels, mess, Wi-Fi-enabled campus, central library, modern labs, sports complex, and medical facilities.",
+},
+{
+  name: "Gurugram University, Gurugram",
+  image: "https://tse2.mm.bing.net/th/id/OIP.NKyh73Uw-vHoDOVgB9bIMAHaC7?rs=1&pid=ImgDetMain&o=7&rm=3",
+  description:
+    "Gurugram University is a Haryana state government university established to provide affordable higher education in the NCR region. It offers engineering and technology programs through its university departments and affiliated government colleges.\n\n" +
+    "Branches: Computer Science & Engineering, Electronics & Communication Engineering, Mechanical Engineering, Electrical Engineering, Civil Engineering.\n\n" +
+    "Admission (2025): Through JEE Main + Haryana State Counselling / University-level counselling.\n\n" +
+    "B.Tech Fees (2025): ~₹1–1.3 lakh per year.\n\n" +
+    "Hostel + Mess Fees: ~₹50,000–80,000 per year (limited hostel availability).\n\n" +
+    "Placements (2025):\n" +
+    "Average package: ₹3–5 LPA.\n" +
+    "Highest package: ₹10–12 LPA.\n\n" +
+    "Campus Facilities: Government campus, classrooms, laboratories, library, Wi-Fi-enabled campus, sports facilities, and basic student amenities.",
+},
 
-
-/* ---------------- ANIMATIONS ---------------- */
-
+]
+  
 const container = {
   hidden: { opacity: 0 },
   visible: { opacity: 1, transition: { staggerChildren: 0.15 } },
@@ -405,7 +472,8 @@ const StateEducationPage = () => {
     { title: "Delhi", data: colleges },
     { title: "Rajasthan", data: Rajasthan },
     { title: "Uttarakhand", data: Uttarakhand },
-  ];
+    { title: "Other Government Colleges & Universities of Delhi NCR", data: others },
+  ]
 
   return (
     <section className="min-h-screen bg-black text-white py-14 px-4 md:px-10">
@@ -415,7 +483,7 @@ const StateEducationPage = () => {
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        State Universities & Colleges
+        State Government Universities & Colleges
       </motion.h1>
 
       {allSections.map((section, sIdx) => (

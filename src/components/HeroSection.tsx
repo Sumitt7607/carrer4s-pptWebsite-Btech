@@ -95,7 +95,7 @@ const HeroSection = () => {
   className="mt-16 grid grid-cols-2 sm:grid-cols-4 gap-8"
 >
   {[
-    { number: "5000+", label: "Students Counseled" },
+    { number: "10000+", label: "Students Counseled" },
     { number: "500+", label: "College universities" },
     { number: "5+", label: "Branches in India" },
     { number: "30+", label: "Expert Counselors" },

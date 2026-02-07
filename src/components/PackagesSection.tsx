@@ -134,14 +134,14 @@ export default function PackagesSection() {
             onClick={() => navigate("/packages/premium")}
           >
             {/* Badge */}
-            <motion.div
+            {/* <motion.div
               animate={{ scale: [1, 1.05, 1] }}
               transition={{ repeat: Infinity, duration: 2 }}
               className="absolute -top-4 right-6 rounded-full px-4 py-1.5 text-sm font-bold text-white shadow-lg"
               style={{ background: "linear-gradient(135deg, hsl(30 100% 50%), hsl(43 100% 50%))" }}
             >
               🔥 Recommended
-            </motion.div>
+            </motion.div> */}
 
             <div className="mb-4 flex items-center gap-3">
               <div className="flex h-12 w-12 items-center justify-center rounded-xl" style={{

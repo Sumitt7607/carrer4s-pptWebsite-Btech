@@ -494,7 +494,7 @@ const BTech = () => {
       <TestimonialsCarousel />
 
 
-      <WhyChooseUs/>
+      {/* <WhyChooseUs/> */}
           
     </div>
   );
