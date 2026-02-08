@@ -67,8 +67,8 @@ export const counselingData: CounselingInfo[] = [
   organizingBody: "Ministry of Education, Government of India",
 
   eligibility: [
-    "Valid JEE Main 2025 score for NITs, IIITs, and GFTIs",
-    "Valid JEE Advanced 2025 rank for IITs",
+    "Valid JEE Main 2026 score for NITs, IIITs, and GFTIs",
+    "Valid JEE Advanced 2026 rank for IITs",
     "Class 12 passed with Physics, Chemistry & Mathematics",
     "Age as per institute norms",
     "Minimum percentage as per institute rules"
