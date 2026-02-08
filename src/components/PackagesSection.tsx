@@ -7,7 +7,7 @@ const standardHighlights = [
   "Personalized college shortlisting",
   "Entrance exam guidance (JEE / State-level)",
   "Application form assistance",
-  "2 one-on-one counselling sessions",
+  
 ];
 
 const premiumHighlights = [
@@ -62,16 +62,17 @@ export default function PackagesSection() {
 
         <div className="grid gap-8 md:grid-cols-2">
           {/* Standard Card */}
-<motion.div
-  custom={0}
-  variants={cardVariants}
-  initial="hidden"
-  whileInView="visible"
-  viewport={{ once: true }}
-  whileHover={{ scale: 1.03, boxShadow: "0 0 50px hsl(43 100% 50% / 0.35)" }}
-  className="group relative cursor-pointer rounded-2xl border-2 border-gold/50 bg-white p-8 shadow-2xl transition-colors hover:border-gold"
-  onClick={() => navigate("/packages/standard")}
->
+            <div className="flex justify-center md:col-span-2">
+    <motion.div
+      custom={0}
+      variants={cardVariants}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
+      whileHover={{ scale: 1.03, boxShadow: "0 0 50px hsl(43 100% 50% / 0.35)" }}
+      className="group relative cursor-pointer rounded-2xl border-2 border-gold/50 bg-white p-8 shadow-2xl transition-colors hover:border-gold max-w-md w-full"
+      onClick={() => navigate("/packages/standard")}
+    >
   <div className="mb-4 flex items-center gap-3">
     <div
       className="flex h-12 w-12 items-center justify-center rounded-xl"
@@ -84,12 +85,12 @@ export default function PackagesSection() {
     </div>
 
     <h3 className="text-2xl font-bold text-saffron-dark md:text-3xl">
-      Standard Counselling
+      Service Charges starts from 
     </h3>
   </div>
 
   <p className="mb-1 text-4xl font-extrabold text-saffron-dark">
-    ₹30,000
+    ₹30,000-/  Onwards
   </p>
 
   <p className="mb-6 text-black">
@@ -120,10 +121,9 @@ export default function PackagesSection() {
     View Details <ArrowRight className="ml-2 h-5 w-5" />
   </Button>
 </motion.div>
+</div>
 
-
-          {/* Premium Card */}
-          <motion.div
+          {/* <motion.div
             custom={1}
             variants={cardVariants}
             initial="hidden"
@@ -133,15 +133,7 @@ export default function PackagesSection() {
             className="group relative cursor-pointer rounded-2xl border-2 border-gold/50 bg-white p-8 shadow-2xl transition-colors hover:border-gold"
             onClick={() => navigate("/packages/premium")}
           >
-            {/* Badge */}
-            {/* <motion.div
-              animate={{ scale: [1, 1.05, 1] }}
-              transition={{ repeat: Infinity, duration: 2 }}
-              className="absolute -top-4 right-6 rounded-full px-4 py-1.5 text-sm font-bold text-white shadow-lg"
-              style={{ background: "linear-gradient(135deg, hsl(30 100% 50%), hsl(43 100% 50%))" }}
-            >
-              🔥 Recommended
-            </motion.div> */}
+
 
             <div className="mb-4 flex items-center gap-3">
               <div className="flex h-12 w-12 items-center justify-center rounded-xl" style={{
@@ -182,7 +174,7 @@ export default function PackagesSection() {
             >
               View Details <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </section>

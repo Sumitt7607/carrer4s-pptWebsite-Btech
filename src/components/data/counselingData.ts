@@ -14,7 +14,10 @@ export interface CounselingInfo {
   statusColor: string;
   website: string;
 
-  participatingInstitutes?: string[];
+
+participatingInstitutes?: string[];
+
+
 
   admissionProcess?: {
     step: number;
@@ -49,6 +52,7 @@ export interface CounselingInfo {
     answer: string;
   }[];
 }
+
 
 
 export const counselingData: CounselingInfo[] = [
@@ -847,6 +851,35 @@ export const counselingData: CounselingInfo[] = [
   status: "Active",
   statusColor: "bg-green-500",
   website: "https://hstes.org.in",
+participatingInstitutes: [
+  "Deenbandhu Chhotu Ram University of Science & Technology (DCRUST), Murthal",
+  "Maharshi Dayanand University (MDU), Rohtak",
+  "Guru Jambheshwar University of Science & Technology (GJUST), Hisar",
+  "YMCA University of Science & Technology, Faridabad",
+
+  "Government Engineering College, Nilokheri",
+  "Government Engineering College, Sonipat",
+  "Government Engineering College, Rewari",
+  "Government Engineering College, Jhajjar",
+  "Government Engineering College, Ambala",
+
+  "JC Bose University of Science & Technology (Affiliated Colleges)",
+  "Manav Rachna International Institute of Research & Studies, Faridabad",
+  "Lingaya’s Vidyapeeth, Faridabad",
+  "Aravali College of Engineering & Management, Faridabad",
+  "PDM College of Engineering, Bahadurgarh",
+  "Sat Kabir Institute of Technology & Management, Rohtak",
+  "Vaish College of Engineering, Rohtak",
+  "Hindu College of Engineering, Sonipat",
+  "Seth Jai Parkash Mukand Lal Institute of Engineering & Technology, Yamunanagar",
+
+  "Amity University, Gurugram",
+  "SRM University, Sonepat",
+  "GD Goenka University, Gurugram",
+  "BML Munjal University, Gurugram",
+  "Ansal University, Gurugram",
+  "World University of Design, Sonipat"
+],
 
   admissionProcess: [
     {
@@ -886,6 +919,8 @@ export const counselingData: CounselingInfo[] = [
       duration: "July–August"
     }
   ],
+
+
 
   seatMatrix: [
     {
@@ -1004,6 +1039,36 @@ export const counselingData: CounselingInfo[] = [
   statusColor: "bg-green-500",
 
   website: "https://uptac.admissions.nic.in",
+  participatingInstitutes: [
+  "Harcourt Butler Technical University (HBTU), Kanpur",
+  "Institute of Engineering & Technology (IET), Lucknow",
+  "Kamla Nehru Institute of Technology (KNIT), Sultanpur",
+  "Bundelkhand Institute of Engineering & Technology (BIET), Jhansi",
+  "Madan Mohan Malaviya University of Technology (MMMUT), Gorakhpur",
+
+  "JSS Academy of Technical Education, Noida",
+  "Ajay Kumar Garg Engineering College (AKGEC), Ghaziabad",
+  "KIET Group of Institutions, Ghaziabad",
+  "Galgotias College of Engineering & Technology, Greater Noida",
+  "GL Bajaj Institute of Technology & Management, Greater Noida",
+  "Noida Institute of Engineering & Technology (NIET), Greater Noida",
+  "ABES Engineering College, Ghaziabad",
+  "IMS Engineering College, Ghaziabad",
+  "Raj Kumar Goel Institute of Technology, Ghaziabad",
+
+  "Pranveer Singh Institute of Technology (PSIT), Kanpur",
+  "Babu Banarasi Das National Institute of Technology & Management (BBDNITM), Lucknow",
+  "Shri Ramswaroop Memorial College of Engineering & Management, Lucknow",
+  "Greater Noida Institute of Technology (GNIT), Greater Noida",
+  "Accurate Institute of Management & Technology, Greater Noida",
+
+  "United College of Engineering & Research, Prayagraj",
+  "Institute of Technology & Management (ITM), Gorakhpur",
+  "Lucknow Institute of Technology (LIT), Lucknow",
+  "Feroze Gandhi Institute of Engineering & Technology (FGIET), Raebareli",
+  "Maharana Pratap Engineering College, Kanpur"
+],
+
 
   admissionProcess: [
     {
@@ -1174,6 +1239,39 @@ export const counselingData: CounselingInfo[] = [
   statusColor: "bg-green-500",
 
   website: "https://cetcell.mahacet.org",
+  participatingInstitutes: [
+  "College of Engineering, Pune (COEP Technological University)",
+  "Veermata Jijabai Technological Institute (VJTI), Mumbai",
+  "Sardar Patel College of Engineering (SPCE), Mumbai",
+  "Walchand College of Engineering, Sangli",
+  "Government College of Engineering, Aurangabad",
+  "Government College of Engineering, Amravati",
+  "Government College of Engineering, Karad",
+
+  "K J Somaiya College of Engineering, Mumbai",
+  "Dwarkadas J. Sanghvi College of Engineering (DJSCE), Mumbai",
+  "Thadomal Shahani Engineering College (TSEC), Mumbai",
+  "Fr. Conceicao Rodrigues College of Engineering (FRCRCE), Mumbai",
+  "Vivekanand Education Society’s Institute of Technology (VESIT), Mumbai",
+  "SIES Graduate School of Technology (SIES GST), Navi Mumbai",
+
+  "Pune Institute of Computer Technology (PICT), Pune",
+  "MIT World Peace University (MIT-WPU), Pune",
+  "Bharati Vidyapeeth College of Engineering, Pune",
+  "Vishwakarma Institute of Technology (VIT), Pune",
+  "Vishwakarma Institute of Information Technology (VIIT), Pune",
+  "Cummins College of Engineering for Women, Pune",
+
+  "Rajarambapu Institute of Technology (RIT), Sangli",
+  "Ramrao Adik Institute of Technology (RAIT), Navi Mumbai",
+  "Terna Engineering College, Navi Mumbai",
+  "Datta Meghe College of Engineering (DMCE), Navi Mumbai",
+
+  "Sinhgad College of Engineering, Pune",
+  "JSPM’s Rajarshi Shahu College of Engineering, Pune",
+  "PCCOE – Pimpri Chinchwad College of Engineering, Pune"
+],
+
 
   admissionProcess: [
     {
@@ -1363,6 +1461,39 @@ export const counselingData: CounselingInfo[] = [
   statusColor: "bg-yellow-500",
 
   website: "https://www.comedk.org",
+  participatingInstitutes: [
+  "RV College of Engineering (RVCE), Bengaluru",
+  "BMS College of Engineering (BMSCE), Bengaluru",
+  "Ramaiah Institute of Technology (MSRIT), Bengaluru",
+  "PES University (Ring Road Campus), Bengaluru",
+  "Dayananda Sagar College of Engineering (DSCE), Bengaluru",
+
+  "NIE – National Institute of Engineering, Mysuru",
+  "Sri Jayachamarajendra College of Engineering (SJCE), Mysuru",
+  "JSS Science and Technology University (JSS STU), Mysuru",
+
+  "Bangalore Institute of Technology (BIT), Bengaluru",
+  "Sir M Visvesvaraya Institute of Technology (Sir MVIT), Bengaluru",
+  "New Horizon College of Engineering, Bengaluru",
+  "CMR Institute of Technology, Bengaluru",
+  "Acharya Institute of Technology, Bengaluru",
+  "RNS Institute of Technology, Bengaluru",
+
+  "Nitte Meenakshi Institute of Technology (NMIT), Bengaluru",
+  "Bangalore Institute of Technology (BIT), Bengaluru",
+  "KLE Technological University (Hubballi Campus)",
+  "SDM College of Engineering & Technology, Dharwad",
+
+  "MVJ College of Engineering, Bengaluru",
+  "BNM Institute of Technology, Bengaluru",
+  "Reva University (COMEDK Seats), Bengaluru",
+  "Presidency University (COMEDK Seats), Bengaluru",
+
+  "Malnad College of Engineering, Hassan",
+  "Canara Engineering College, Mangaluru",
+  "Sahyadri College of Engineering & Management, Mangaluru"
+],
+
 
   admissionProcess: [
     {
@@ -1550,6 +1681,35 @@ feeStructure: [
   statusColor: "bg-green-500",
 
   website: "https://reapcounselling2026.com/",
+  participatingInstitutes: [
+  "Malaviya National Institute of Technology (MNIT), Jaipur",
+  "College of Technology & Engineering (CTAE), Udaipur",
+  "MBM Engineering College, Jodhpur",
+  "Engineering College, Bikaner",
+  "Engineering College, Ajmer",
+
+  "Rajasthan Technical University (RTU), Kota",
+  "Government Engineering College, Kota",
+  "Government Engineering College, Bharatpur",
+  "Government Engineering College, Jhalawar",
+
+  "Poornima College of Engineering, Jaipur",
+  "Poornima University (Engineering Colleges), Jaipur",
+  "Jaipur Engineering College & Research Centre (JECRC), Jaipur",
+  "JECRC University, Jaipur",
+  "Arya College of Engineering & IT, Jaipur",
+  "SKIT – Swami Keshvanand Institute of Technology, Jaipur",
+
+  "LNM Institute of Information Technology (LNMIIT), Jaipur",
+  "Manipal University Jaipur (Engineering Colleges)",
+  "Vivekananda Global University (VGU), Jaipur",
+
+  "Modern Institute of Technology & Research Centre (MITRC), Alwar",
+  "Sobhasaria Group of Institutions, Sikar",
+  "Pacific College of Engineering, Udaipur",
+  "Geetanjali Institute of Technical Studies, Udaipur"
+],
+
 
   admissionProcess: [
     {

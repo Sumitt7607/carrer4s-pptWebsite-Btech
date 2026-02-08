@@ -3,87 +3,86 @@ import { ChevronLeft, ChevronRight, GraduationCap } from "lucide-react";
 import { TestimonialCard, Testimonial } from "./TestimonialCard";
 import { Button } from "./ui/button";
 import { cn } from "@/lib/utils";
-
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "user1",
+    name: "Aditya Kumar",
     photo: "/boy1.jpeg",
-    college: "IIT Delhi",
+    college: "Maharaja Agrasen Institute of Technology, Delhi",
     course: "B.Tech Computer Science",
-    year: 2024,
+    year: 2023,
     rating: 5,
     quote:
-      "The counseling helped me choose the right branch and college based on my JEE rank.",
+      "Personalized counseling helped me shortlist colleges that perfectly matched my rank and preferences.",
   },
   {
     id: 2,
-    name: "user2",
+    name: "Mobin Khan",
     photo: "/boy2 (2).jpeg",
-    college: "NIT Trichy",
+    college: "SRM University",
     course: "B.Tech Mechanical",
-    year: 2024,
+    year: 2024  ,
     rating: 5,
     quote:
-      "Got my dream NIT because of proper guidance and transparent counseling.",
+      "The step-by-step guidance during counseling made the entire admission process smooth and stress-free.",
   },
   {
     id: 3,
-    name: "user3",
+    name: "Lakshya Singh",
     photo: "/boy3.jpeg",
-    college: "DTU Delhi",
+    college: "Maharaja Surajmal Institute of Technology",
     course: "B.Tech Electrical",
-    year: 2023,
+    year: 2025,
     rating: 4,
     quote:
-      "Best admission guidance platform for engineering aspirants.",
+      "Accurate college predictions and honest advice helped me make a confident decision.",
   },
   {
     id: 4,
-    name: "user4",
+    name: "Rimsha",
     photo: "/boy7.jpeg",
     college: "VIT Vellore",
     course: "B.Tech IT",
-    year: 2024,
+    year: 2025,
     rating: 5,
     quote:
-      "Stress-free admission journey with excellent support at every step.",
+      "From document verification to final admission, the support team was always available and helpful.",
   },
-    {
+  {
     id: 5,
-    name: "user5",
+    name: "Yash Sharma",
     photo: "/boy5.jpeg",
-    college: "VIT Vellore",
+    college: "Bhartiya Vidyapeeth, Pune",
     course: "B.Tech IT",
-    year: 2024,
+    year: 2021,
     rating: 5,
     quote:
-      "Stress-free admission journey with excellent support at every step.",
+      "Clear communication and expert counseling made choosing the right college very easy for me.",
   },
   {
     id: 6,
-    name: "user6",
+    name: "Anamika Gupta",
     photo: "/boy8.jpeg",
-    college: "IIT Bombay",
+    college: "Galgotias College, Greater Noida",
     course: "B.Tech Civil",
     year: 2023,
     rating: 4,
     quote:
-      "The counseling helped me choose the right branch and college based on my JEE rank.",
+      "I really appreciated the honest guidance and realistic expectations shared by the counselors.",
   },
   {
     id: 7,
-    name: "user7",              
+    name: "Pushparaj",
     photo: "/boy4.jpeg",
-    college: "NIT Warangal",
-    course: "B.Tech ECE",             
-    year: 2024,
+    college: "Shri Ram College of Engineering and Management, Delhi",
+    course: "B.Tech ECE",
+    year: 2025,
     rating: 5,
     quote:
-      "Got my dream NIT because of proper guidance and transparent counseling.",  
-  }
-
+      "The counseling sessions cleared all my doubts and helped me secure admission in a reputed college.",
+  },
 ];
+
 
 type Position = "current" | "prev" | "next" | "hidden";
 
@@ -133,14 +132,14 @@ export const TestimonialsCarousel: React.FC = () => {
 
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             <span className="bg-gradient-to-r from-saffron via-orange-400 to-saffron bg-clip-text text-transparent">
-              500+
+              10000+
             </span>{" "}
             B.Tech Admissions
           </h2>
-
+{/* 
           <p className="text-zinc-400 max-w-2xl mx-auto">
             Real student stories from IITs, NITs, DTU, VIT and top engineering colleges.
-          </p>
+          </p> */}
         </div>
 
         {/* Carousel */}

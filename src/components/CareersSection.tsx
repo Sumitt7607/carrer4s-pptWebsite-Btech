@@ -193,14 +193,14 @@ export const CareersSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <motion.span
+          {/* <motion.span
             className="inline-block px-4 py-1.5 rounded-full glass text-primary text-sm font-medium mb-4"
             initial={{ scale: 0 }}
             animate={isInView ? { scale: 1 } : {}}
             transition={{ duration: 0.4, delay: 0.2 }}
           >
-            💼 Career Opportunities
-          </motion.span>
+          
+          </motion.span> */}
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="text-foreground">Engineering </span>
             <span className="text-gradient-saffron">Branches & Careers</span>

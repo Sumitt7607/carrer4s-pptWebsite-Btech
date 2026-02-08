@@ -9,6 +9,14 @@ import {
   GitBranch,
   ClipboardList,
   Star,
+  Video,
+  Users,
+  UserCheck,
+  Layers,
+  Globe,
+  Shuffle,
+  Home,
+  BadgePercent,
 } from "lucide-react";
 
 const inclusions = [
@@ -83,7 +91,20 @@ const inclusions = [
   {
     text: "Unlimited Counselling Support for 6 Months",
     icon: PhoneCall,
-  }
+  },
+   { text: "30–40 Zoom Sessions", icon: Video },
+  { text: "Unlimited 1-on-1 Counselling Sessions", icon: Users },
+  {
+    text: "Dedicated Personal Counsellor for Complete Guidance",
+    icon: UserCheck,
+  },
+  { text: "Complete Admission Management (End-to-End)", icon: Layers },
+  { text: "NRI / Management Quota Guidance & Seat Booking", icon: Globe },
+  { text: "Branch & College Comparison Analysis Report", icon: BarChart3 },
+  { text: "Priority Support via Phone & WhatsApp", icon: PhoneCall },
+  { text: "Lateral Entry & Spot Round Counselling", icon: Shuffle },
+  { text: "Post-Admission Support (Hostel, Docs, Orientation)", icon: Home },
+  { text: "Scholarship & Fee Negotiation Support", icon: BadgePercent },
 ];
 
 const container = {
@@ -122,12 +143,12 @@ export default function StandardPackage() {
         <Star className="h-5 w-5" />
       </div>
       <h1 className="text-lg md:text-xl font-bold">
-        Standard Counselling
+        Career4s  Counselling
       </h1>
     </div>
 
     {/* Right */}
-    <p className="text-xl md:text-2xl font-extrabold">₹30,000</p>
+    <p className="text-xl md:text-2xl font-extrabold">₹30,000 /-  OnWards</p>
   </div>
 </div>
 
