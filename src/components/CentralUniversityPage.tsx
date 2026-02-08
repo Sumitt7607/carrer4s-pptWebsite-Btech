@@ -621,7 +621,7 @@ const [selectedCollege, setSelectedCollege] = useState<Colleges | null>(null);
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        Central Government Universities for B.Tech
+        Central Government Universities for B.Tech (40)
         <span className="block text-sm mt-2 text-gray-400">
           (Other than IITs & NITs)
         </span>

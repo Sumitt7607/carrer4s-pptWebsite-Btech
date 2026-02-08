@@ -397,11 +397,11 @@ const IITNITIIITPage = () => {
   return (
     <div className="bg-black text-white min-h-screen relative overflow-hidden">
       {/* IIT Section */}
-      <CollegeSection title="Indian Institutes of Technology (IITs)" colleges={iits} />
+      <CollegeSection title="Indian Institutes of Technology (IITs) 23 " colleges={iits} />
       {/* NIT Section */}
-      <CollegeSection title="National Institutes of Technology (NITs)" colleges={nits} />
+      <CollegeSection title="National Institutes of Technology (NITs) 31 " colleges={nits} />
       {/* IIIT Section */}
-      <CollegeSection title="Indian Institutes of Information Technology (IIITs)" colleges={iiits} />
+      <CollegeSection title="Indian Institutes of Information Technology (IIITs) 25" colleges={iiits} />
     </div>
   );
 };

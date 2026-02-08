@@ -187,7 +187,7 @@ const CounselingDetail = () => {
         )}
 
         {/* Seat Matrix */}
-        <motion.section variants={sectionVariants}>
+        {/* <motion.section variants={sectionVariants}>
           <SectionHeader icon={Users} title="Seat Matrix" />
           <Card>
             <Table>
@@ -219,7 +219,7 @@ const CounselingDetail = () => {
               </TableBody>
             </Table>
           </Card>
-        </motion.section>
+        </motion.section> */}
 
         {/* Documents */}
         {counseling.requiredDocuments?.length > 0 && (

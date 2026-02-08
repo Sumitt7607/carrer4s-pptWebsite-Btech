@@ -88,33 +88,49 @@ export const counselingData: CounselingInfo[] = [
     { step: 3, title: "Seat Allotment", description: "Multiple rounds of allotment", duration: "June–July 2026" },
     { step: 4, title: "Reporting", description: "Report to allotted institute", duration: "July 2026" }
   ],
+participatingInstitutes: [
+  // IITs
+  "Indian Institute of Technology Bombay (IIT Bombay)",
+  "Indian Institute of Technology Delhi (IIT Delhi)",
+  "Indian Institute of Technology Madras (IIT Madras)",
+  "Indian Institute of Technology Kanpur (IIT Kanpur)",
+  "Indian Institute of Technology Kharagpur (IIT Kharagpur)",
+  "Indian Institute of Technology Roorkee (IIT Roorkee)",
+  "Indian Institute of Technology Guwahati (IIT Guwahati)",
+  "Indian Institute of Technology Hyderabad (IIT Hyderabad)",
+  "Indian Institute of Technology BHU Varanasi (IIT BHU)",
+  "Indian Institute of Technology Indore (IIT Indore)",
 
-  seatMatrix: [
-    {
-      category: "IITs",
-      institution: "Indian Institutes of Technology",
-      seats: 17760,
-      branches: ["CSE", "ECE", "EE", "ME", "CE", "Chemical"]
-    },
-    {
-      category: "NITs",
-      institution: "National Institutes of Technology",
-      seats: 24229,
-      branches: ["CSE", "ECE", "EEE", "ME", "CE", "IT"]
-    },
-    {
-      category: "IIITs",
-      institution: "Indian Institutes of Information Technology",
-      seats: 8546,
-      branches: ["CSE", "IT", "ECE", "AI & ML"]
-    },
-    {
-      category: "GFTIs",
-      institution: "Government Funded Technical Institutes",
-      seats: 9402,
-      branches: ["Various Engineering Branches"]
-    }
-  ],
+  // NITs
+  "National Institute of Technology Tiruchirappalli (NIT Trichy)",
+  "National Institute of Technology Surathkal (NITK)",
+  "National Institute of Technology Warangal (NIT Warangal)",
+  "National Institute of Technology Rourkela (NIT Rourkela)",
+  "National Institute of Technology Calicut (NIT Calicut)",
+  "National Institute of Technology Kurukshetra (NIT Kurukshetra)",
+  "National Institute of Technology Allahabad (NIT Prayagraj)",
+  "National Institute of Technology Jaipur (MNIT Jaipur)",
+  "National Institute of Technology Bhopal (MANIT Bhopal)",
+  "National Institute of Technology Durgapur (NIT Durgapur)",
+
+  // IIITs
+  "Indian Institute of Information Technology Hyderabad (IIIT Hyderabad)",
+  "Indian Institute of Information Technology Allahabad (IIIT Allahabad)",
+  "Indian Institute of Information Technology Bangalore (IIIT Bangalore)",
+  "Indian Institute of Information Technology Gwalior (IIIT Gwalior)",
+  "Indian Institute of Information Technology Jabalpur (IIIT Jabalpur)",
+  "Indian Institute of Information Technology Kancheepuram (IIITDM Kancheepuram)",
+  "Indian Institute of Information Technology Kurnool (IIIT Kurnool)",
+  "Indian Institute of Information Technology Una (IIIT Una)",
+
+  // GFTIs
+  "Assam University Silchar",
+  "Birla Institute of Technology Mesra (BIT Mesra)",
+  "Punjab Engineering College Chandigarh (PEC)",
+  "Sant Longowal Institute of Engineering & Technology (SLIET)",
+  "Indian Institute of Engineering Science and Technology Shibpur (IIEST Shibpur)"
+],
+
 
   requiredDocuments: [
     "JEE Score Card",
@@ -171,7 +187,7 @@ export const counselingData: CounselingInfo[] = [
   ],
 
   totalSeats: 8000,
-  participatingColleges: 60,
+  participatingColleges: 100,   
 
   status: "Upcoming",
   statusColor: "bg-yellow-500",
@@ -211,25 +227,40 @@ export const counselingData: CounselingInfo[] = [
     }
   ],
 
-  seatMatrix: [
-    {
-      category: "NITs",
-      institution: "National Institutes of Technology",
-      seats: 5000,
-      branches: ["CSE", "ECE", "ME", "CE"]
-    },
-    {
-      category: "IIITs",
-      institution: "Indian Institutes of Information Technology",
-      seats: 2000,
-      branches: ["CSE", "IT", "ECE"]
-    },
-    {
-      category: "GFTIs",
-      institution: "Government Funded Technical Institutes",
-      seats: 1000,
-      branches: ["Various Engineering Branches"]
-    }
+  participatingInstitutes: [
+    // NITs
+    "National Institute of Technology Tiruchirappalli (NIT Trichy)",
+    "National Institute of Technology Warangal",
+    "National Institute of Technology Surathkal",
+    "National Institute of Technology Rourkela",
+    "National Institute of Technology Calicut",
+    "National Institute of Technology Kurukshetra",
+    "National Institute of Technology Jaipur (MNIT Jaipur)",
+    "National Institute of Technology Bhopal (MANIT Bhopal)",
+    "National Institute of Technology Durgapur",
+    "National Institute of Technology Silchar",
+
+    // IIITs
+    "Indian Institute of Information Technology Allahabad",
+    "Indian Institute of Information Technology Gwalior",
+    "Indian Institute of Information Technology Jabalpur",
+    "Indian Institute of Information Technology Kancheepuram",
+    "Indian Institute of Information Technology Una",
+    "Indian Institute of Information Technology Kurnool",
+    "Indian Institute of Information Technology Sri City",
+    "Indian Institute of Information Technology Nagpur",
+
+    // GFTIs
+    "Birla Institute of Technology Mesra",
+    "Punjab Engineering College Chandigarh",
+    "Assam University Silchar",
+    "Sant Longowal Institute of Engineering and Technology",
+    "Indian Institute of Engineering Science and Technology Shibpur",
+    "Gurukula Kangri Vishwavidyalaya",
+    "Jawaharlal Nehru University Delhi (Engineering Programs)",
+    "Mizoram University",
+    "Nagaland University",
+    "Pondicherry Engineering College"
   ],
 
   requiredDocuments: [
@@ -290,6 +321,7 @@ export const counselingData: CounselingInfo[] = [
     }
   ]
 },
+
 {
   id: "jac-delhi",
   name: "JAC Delhi",
@@ -657,176 +689,176 @@ export const counselingData: CounselingInfo[] = [
 
 
 
-{
-  id: "igdtuw",
-  name: "IGDTUW Counselling",
-  fullName: "Indira Gandhi Delhi Technical University for Women B.Tech Counselling",
-  icon: "GraduationCap",
-  description:
-    "IGDTUW offers B.Tech admissions exclusively for female candidates through JAC Delhi based on JEE Main ranks, focusing on technical education for women.",
+// {
+//   id: "igdtuw",
+//   name: "IGDTUW Counselling",
+//   fullName: "Indira Gandhi Delhi Technical University for Women B.Tech Counselling",
+//   icon: "GraduationCap",
+//   description:
+//     "IGDTUW offers B.Tech admissions exclusively for female candidates through JAC Delhi based on JEE Main ranks, focusing on technical education for women.",
 
-  organizingBody: "Indira Gandhi Delhi Technical University for Women (IGDTUW)",
+//   organizingBody: "Indira Gandhi Delhi Technical University for Women (IGDTUW)",
 
-  eligibility: [
-    "Female candidates only",
-    "Qualified JEE Main (Paper 1 – B.E./B.Tech)",
-    "Passed Class 12 with Physics, Chemistry & Mathematics",
-    "Minimum eligibility as prescribed by IGDTUW",
-    "Delhi Region & Outside Delhi candidates eligible",
-    "Reservation norms applicable as per government rules"
-  ],
+//   eligibility: [
+//     "Female candidates only",
+//     "Qualified JEE Main (Paper 1 – B.E./B.Tech)",
+//     "Passed Class 12 with Physics, Chemistry & Mathematics",
+//     "Minimum eligibility as prescribed by IGDTUW",
+//     "Delhi Region & Outside Delhi candidates eligible",
+//     "Reservation norms applicable as per government rules"
+//   ],
 
-  totalSeats: 1000,
-  participatingColleges: 1,
+//   totalSeats: 1000,
+//   participatingColleges: 1,
 
-  status: "Active",
-  statusColor: "bg-green-500",
+//   status: "Active",
+//   statusColor: "bg-green-500",
 
-  website: "https://www.igdtuw.ac.in",
+//   website: "https://www.igdtuw.ac.in",
 
-  participatingInstitutes: [
-    "Indira Gandhi Delhi Technical University for Women (IGDTUW), Kashmere Gate Campus"
-  ],
+//   participatingInstitutes: [
+//     "Indira Gandhi Delhi Technical University for Women (IGDTUW), Kashmere Gate Campus"
+//   ],
 
-  admissionProcess: [
-    {
-      step: 1,
-      title: "JAC Delhi Registration",
-      description: "Register on JAC Delhi portal using JEE Main credentials",
-      duration: "June"
-    },
-    {
-      step: 2,
-      title: "Choice Filling & Locking",
-      description: "Select IGDTUW branches in order of preference",
-      duration: "June"
-    },
-    {
-      step: 3,
-      title: "Seat Allotment",
-      description: "Seat allotment through multiple JAC Delhi rounds",
-      duration: "July"
-    },
-    {
-      step: 4,
-      title: "Seat Acceptance Fee Payment",
-      description: "Pay seat acceptance fee to confirm the allotted seat",
-      duration: "July"
-    },
-    {
-      step: 5,
-      title: "Document Verification",
-      description: "Online / physical verification of documents",
-      duration: "July"
-    },
-    {
-      step: 6,
-      title: "Reporting to University",
-      description: "Final reporting at IGDTUW campus to complete admission",
-      duration: "July–August"
-    }
-  ],
+//   admissionProcess: [
+//     {
+//       step: 1,
+//       title: "JAC Delhi Registration",
+//       description: "Register on JAC Delhi portal using JEE Main credentials",
+//       duration: "June"
+//     },
+//     {
+//       step: 2,
+//       title: "Choice Filling & Locking",
+//       description: "Select IGDTUW branches in order of preference",
+//       duration: "June"
+//     },
+//     {
+//       step: 3,
+//       title: "Seat Allotment",
+//       description: "Seat allotment through multiple JAC Delhi rounds",
+//       duration: "July"
+//     },
+//     {
+//       step: 4,
+//       title: "Seat Acceptance Fee Payment",
+//       description: "Pay seat acceptance fee to confirm the allotted seat",
+//       duration: "July"
+//     },
+//     {
+//       step: 5,
+//       title: "Document Verification",
+//       description: "Online / physical verification of documents",
+//       duration: "July"
+//     },
+//     {
+//       step: 6,
+//       title: "Reporting to University",
+//       description: "Final reporting at IGDTUW campus to complete admission",
+//       duration: "July–August"
+//     }
+//   ],
 
-  seatMatrix: [
-    {
-      category: "B.Tech Programs",
-      institution: "IGDTUW",
-      seats: 1000,
-      branches: [
-        "Computer Science & Engineering (CSE)",
-        "Information Technology (IT)",
-        "Electronics & Communication Engineering (ECE)",
-        "Artificial Intelligence & Data Science",
-        "Mechanical & Automation Engineering"
-      ]
-    }
-  ],
+//   seatMatrix: [
+//     {
+//       category: "B.Tech Programs",
+//       institution: "IGDTUW",
+//       seats: 1000,
+//       branches: [
+//         "Computer Science & Engineering (CSE)",
+//         "Information Technology (IT)",
+//         "Electronics & Communication Engineering (ECE)",
+//         "Artificial Intelligence & Data Science",
+//         "Mechanical & Automation Engineering"
+//       ]
+//     }
+//   ],
 
-  requiredDocuments: [
-    "JEE Main Score Card",
-    "JEE Main Admit Card",
-    "Class 10 Mark Sheet & Certificate",
-    "Class 12 Mark Sheet & Certificate",
-    "Category Certificate (if applicable)",
-    "EWS Certificate (if applicable)",
-    "PwD Certificate (if applicable)",
-    "Delhi Region Certificate (if applicable)",
-    "Passport Size Photographs",
-    "Photo ID Proof (Aadhar / Passport)"
-  ],
+//   requiredDocuments: [
+//     "JEE Main Score Card",
+//     "JEE Main Admit Card",
+//     "Class 10 Mark Sheet & Certificate",
+//     "Class 12 Mark Sheet & Certificate",
+//     "Category Certificate (if applicable)",
+//     "EWS Certificate (if applicable)",
+//     "PwD Certificate (if applicable)",
+//     "Delhi Region Certificate (if applicable)",
+//     "Passport Size Photographs",
+//     "Photo ID Proof (Aadhar / Passport)"
+//   ],
 
-  feeStructure: [
-    {
-      type: "JAC Delhi Registration Fee",
-      amount: "₹1,500",
-      description: "Non-refundable counselling registration fee"
-    },
-    {
-      type: "Seat Acceptance / Part Academic Fee",
-      amount: "₹95,000",
-      description: "Adjusted against tuition fee"
-    },
-    {
-      type: "Tuition Fee (Annual)",
-      amount: "₹1,25,000 – ₹1,50,000",
-      description: "Varies slightly by branch"
-    }
-  ],
+//   feeStructure: [
+//     {
+//       type: "JAC Delhi Registration Fee",
+//       amount: "₹1,500",
+//       description: "Non-refundable counselling registration fee"
+//     },
+//     {
+//       type: "Seat Acceptance / Part Academic Fee",
+//       amount: "₹95,000",
+//       description: "Adjusted against tuition fee"
+//     },
+//     {
+//       type: "Tuition Fee (Annual)",
+//       amount: "₹1,25,000 – ₹1,50,000",
+//       description: "Varies slightly by branch"
+//     }
+//   ],
 
-  importantDates: [
-    {
-      event: "JAC Delhi Registration Start",
-      date: "June",
-      status: "Upcoming"
-    },
-    {
-      event: "Choice Filling & Locking",
-      date: "June",
-      status: "Upcoming"
-    },
-    {
-      event: "Round 1 Seat Allotment",
-      date: "July",
-      status: "Upcoming"
-    },
-    {
-      event: "Final Round Allotment",
-      date: "July",
-      status: "Upcoming"
-    },
+//   importantDates: [
+//     {
+//       event: "JAC Delhi Registration Start",
+//       date: "June",
+//       status: "Upcoming"
+//     },
+//     {
+//       event: "Choice Filling & Locking",
+//       date: "June",
+//       status: "Upcoming"
+//     },
+//     {
+//       event: "Round 1 Seat Allotment",
+//       date: "July",
+//       status: "Upcoming"
+//     },
+//     {
+//       event: "Final Round Allotment",
+//       date: "July",
+//       status: "Upcoming"
+//     },
 
 
     
-    {
-      event: "Reporting at IGDTUW",
-      date: "July–August",
-      status: "Upcoming"
-    }
-  ],
+//     {
+//       event: "Reporting at IGDTUW",
+//       date: "July–August",
+//       status: "Upcoming"
+//     }
+//   ],
 
-  faqs: [
-    {
-      question: "Is IGDTUW only for female candidates?",
-      answer:
-        "Yes, IGDTUW is a women-only technical university and admissions are open exclusively to female candidates."
-    },
-    {
-      question: "Is IGDTUW part of JoSAA?",
-      answer:
-        "No. IGDTUW admissions are conducted through JAC Delhi, not JoSAA."
-    },
-    {
-      question: "Can Outside Delhi female candidates apply?",
-      answer:
-        "Yes, Outside Delhi female candidates can apply under the All India quota."
-    },
-    {
-      question: "Does IGDTUW conduct spot rounds?",
-      answer:
-        "Yes, spot rounds may be conducted through JAC Delhi if seats remain vacant."
-    }
-  ]
-},
+//   faqs: [
+//     {
+//       question: "Is IGDTUW only for female candidates?",
+//       answer:
+//         "Yes, IGDTUW is a women-only technical university and admissions are open exclusively to female candidates."
+//     },
+//     {
+//       question: "Is IGDTUW part of JoSAA?",
+//       answer:
+//         "No. IGDTUW admissions are conducted through JAC Delhi, not JoSAA."
+//     },
+//     {
+//       question: "Can Outside Delhi female candidates apply?",
+//       answer:
+//         "Yes, Outside Delhi female candidates can apply under the All India quota."
+//     },
+//     {
+//       question: "Does IGDTUW conduct spot rounds?",
+//       answer:
+//         "Yes, spot rounds may be conducted through JAC Delhi if seats remain vacant."
+//     }
+//   ]
+// },
 
 
 
@@ -852,33 +884,23 @@ export const counselingData: CounselingInfo[] = [
   statusColor: "bg-green-500",
   website: "https://hstes.org.in",
 participatingInstitutes: [
-  "Deenbandhu Chhotu Ram University of Science & Technology (DCRUST), Murthal",
-  "Maharshi Dayanand University (MDU), Rohtak",
-  "Guru Jambheshwar University of Science & Technology (GJUST), Hisar",
-  "YMCA University of Science & Technology, Faridabad",
+  "State institute of Engineering & Technology (SIET)",
+  "Kurukshetra University (KU), Kurukshetra",
+  "University Institute of Engineering & Technology (UIET), MDU Rohtak",
+  "Ch. Ranbir singh state institute of Engineering & Technology (CRSSIET), Jhajjar",
 
-  "Government Engineering College, Nilokheri",
-  "Government Engineering College, Sonipat",
-  "Government Engineering College, Rewari",
-  "Government Engineering College, Jhajjar",
-  "Government Engineering College, Ambala",
+  "jc Bose University of Science & Technology ,ymca, Faridabad",
+  "Bhagat Phool Singh Mahila Vishwavidyalaya, Sonipat",
+  "Rao Birender Singh University, Rewari",
+  "Indira Gandhi University, Rewari",
+  "Gurugram University, Gurugram",
 
-  "JC Bose University of Science & Technology (Affiliated Colleges)",
-  "Manav Rachna International Institute of Research & Studies, Faridabad",
-  "Lingaya’s Vidyapeeth, Faridabad",
-  "Aravali College of Engineering & Management, Faridabad",
-  "PDM College of Engineering, Bahadurgarh",
-  "Sat Kabir Institute of Technology & Management, Rohtak",
-  "Vaish College of Engineering, Rohtak",
-  "Hindu College of Engineering, Sonipat",
-  "Seth Jai Parkash Mukand Lal Institute of Engineering & Technology, Yamunanagar",
+  "Deenbandhu Chhotu Ram University of Science & Technology, Murthal",
+  "Chaudhary Devi Lal University, Sirsa",
+  "Guru Jambheshwar University of Science & Technology, Hisar",
+  "Shri Venkateshwara University, Gajraula",
+  
 
-  "Amity University, Gurugram",
-  "SRM University, Sonepat",
-  "GD Goenka University, Gurugram",
-  "BML Munjal University, Gurugram",
-  "Ansal University, Gurugram",
-  "World University of Design, Sonipat"
 ],
 
   admissionProcess: [
@@ -1015,7 +1037,7 @@ participatingInstitutes: [
 },
 {
   id: "aktu",
-  name: "UP Counselling",
+  name: "AKTU Counselling",
   fullName: "Dr. A.P.J. Abdul Kalam Technical University Counselling (AKTU)",
   icon: "University",
   description:
@@ -1681,34 +1703,23 @@ feeStructure: [
   statusColor: "bg-green-500",
 
   website: "https://reapcounselling2026.com/",
-  participatingInstitutes: [
+participatingInstitutes: [
+  // Centrally Funded / Government Institutes
   "Malaviya National Institute of Technology (MNIT), Jaipur",
+
+  // State Government Engineering Colleges
   "College of Technology & Engineering (CTAE), Udaipur",
   "MBM Engineering College, Jodhpur",
   "Engineering College, Bikaner",
   "Engineering College, Ajmer",
 
+  // State Government University & Colleges
   "Rajasthan Technical University (RTU), Kota",
   "Government Engineering College, Kota",
   "Government Engineering College, Bharatpur",
-  "Government Engineering College, Jhalawar",
-
-  "Poornima College of Engineering, Jaipur",
-  "Poornima University (Engineering Colleges), Jaipur",
-  "Jaipur Engineering College & Research Centre (JECRC), Jaipur",
-  "JECRC University, Jaipur",
-  "Arya College of Engineering & IT, Jaipur",
-  "SKIT – Swami Keshvanand Institute of Technology, Jaipur",
-
-  "LNM Institute of Information Technology (LNMIIT), Jaipur",
-  "Manipal University Jaipur (Engineering Colleges)",
-  "Vivekananda Global University (VGU), Jaipur",
-
-  "Modern Institute of Technology & Research Centre (MITRC), Alwar",
-  "Sobhasaria Group of Institutions, Sikar",
-  "Pacific College of Engineering, Udaipur",
-  "Geetanjali Institute of Technical Studies, Udaipur"
+  "Government Engineering College, Jhalawar"
 ],
+
 
 
   admissionProcess: [

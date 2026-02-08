@@ -86,14 +86,14 @@ const AdmissionDetail = () => {
         </Section>
 
         {/* Fee */}
-        <Section icon={<IndianRupee className="h-5 w-5" />} title="Fee Structure">
+        {/* <Section icon={<IndianRupee className="h-5 w-5" />} title="Fee Structure">
           <div className="rounded-lg border border-saffron/30 bg-saffron/5 p-6">
             <p className="text-lg font-semibold text-saffron-darker">{admission.feeRange}</p>
             <p className="text-sm text-muted-foreground mt-1">
               *Fees are approximate and may vary. Contact us for exact figures.
             </p>
           </div>
-        </Section>
+        </Section> */}
 
         {/* Contact */}
         <Section icon={<Phone className="h-5 w-5" />} title="Contact Us for Inquiries">

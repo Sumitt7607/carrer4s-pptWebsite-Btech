@@ -53,7 +53,7 @@ export default function PackagesSection() {
 
 
           <h2 className="mb-4 text-5xl font-extrabold tracking-tight text-white drop-shadow-lg md:text-6xl">
-            Our Counselling Packages
+            Our Counselling Package
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-white/80 md:text-xl">
             Expert guidance for your B.Tech college admission journey
@@ -73,25 +73,25 @@ export default function PackagesSection() {
       className="group relative cursor-pointer rounded-2xl border-2 border-gold/50 bg-white p-8 shadow-2xl transition-colors hover:border-gold max-w-md w-full"
       onClick={() => navigate("/packages/standard")}
     >
-  <div className="mb-4 flex items-center gap-3">
-    <div
-      className="flex h-12 w-12 items-center justify-center rounded-xl"
-      style={{
-        background:
-          "linear-gradient(135deg, hsl(30 100% 50%), hsl(43 100% 50%))",
-      }}
-    >
-      <Star className="h-6 w-6 text-white" />
-    </div>
+    {/* <div className="mb-4 flex items-center gap-3">
+      <div
+        className="flex h-12 w-12 items-center justify-center rounded-xl"
+        style={{
+          background:
+            "linear-gradient(135deg, hsl(30 100% 50%), hsl(43 100% 50%))",
+        }}
+      >
+        <Star className="h-6 w-6 text-white" />
+      </div>
 
-    <h3 className="text-2xl font-bold text-saffron-dark md:text-3xl">
-      Service Charges starts from 
-    </h3>
-  </div>
+      <h3 className="text-2xl font-bold text-saffron-dark md:text-3xl">
+        Service Charges starts from 
+      </h3>
+    </div> */}
 
-  <p className="mb-1 text-4xl font-extrabold text-saffron-dark">
-    ₹30,000-/  Onwards
-  </p>
+    {/* <p className="mb-1 text-4xl font-extrabold text-saffron-dark">
+      ₹30,000-/  Onwards
+    </p> */}
 
   <p className="mb-6 text-black">
     Perfect for students who need focused guidance for B.Tech admissions.

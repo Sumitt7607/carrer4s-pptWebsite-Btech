@@ -42,8 +42,7 @@ export const admissionTypes = [
     "Income Certificate (for scholarship or fee relaxation, if applicable)"
   ],
 
-  feeRange:
-    "₹60,000 – ₹2,50,000 per year for Government Colleges | ₹1,20,000 – ₹4,50,000 per year for Private Colleges (varies by state, branch & institute)",
+
 
   counsellingTypes: [
     "Central Counselling (JoSAA, CSAB, MCC, CUET-based)",
@@ -170,7 +169,7 @@ export const admissionTypes = [
 
  {
   id: "reference",
-  title: "Admission Through Reference",
+  title: "Admission Through Reference Quota",
   shortDescription:
     "Admission facilitated through verified alumni, institutional, or professional references, subject to eligibility and seat availability.",
   icon: UserCheck,

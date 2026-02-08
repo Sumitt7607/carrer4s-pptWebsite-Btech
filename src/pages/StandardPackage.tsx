@@ -129,7 +129,7 @@ export default function StandardPackage() {
   return (
     <div className="min-h-screen bg-background">
       {/* HERO */}
-     <div
+     {/* <div
   className="mx-auto max-w-5xl px-4 py-3"
   style={{
     background:
@@ -137,7 +137,7 @@ export default function StandardPackage() {
   }}
 >
   <div className="flex items-center justify-between text-white">
-    {/* Left */}
+
     <div className="flex items-center gap-3">
       <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/20">
         <Star className="h-5 w-5" />
@@ -147,10 +147,10 @@ export default function StandardPackage() {
       </h1>
     </div>
 
-    {/* Right */}
+
     <p className="text-xl md:text-2xl font-extrabold">₹30,000 /-  OnWards</p>
   </div>
-</div>
+</div> */}
 
 
       {/* INCLUSIONS - ROW GRID */}
