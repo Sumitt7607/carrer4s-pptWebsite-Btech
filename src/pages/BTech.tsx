@@ -8,6 +8,8 @@ import TopicsSection from "@/components/TopicsSection";
 import AdmissionServicesSection from "@/components/AdmissionServicesSection";
 import PackagesSection from "@/components/PackagesSection";
 import AdmissionCard from "@/components/AdmissionCard";
+
+
 const containerVariants: Variants = {
   hidden: { opacity: 0 },
   visible: {
@@ -492,7 +494,7 @@ const BTech = () => {
           {/* <AdmissionServicesSection/> */}
         <PackagesSection/>
       <TestimonialsCarousel />
-
+       <Footer/>
 
       {/* <WhyChooseUs/> */}
           
