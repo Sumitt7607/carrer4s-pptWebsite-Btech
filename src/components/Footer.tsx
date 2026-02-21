@@ -22,7 +22,7 @@ const Footer = () => {
                 <Phone className="h-7 w-7" />
               </div>
               <span className="text-4xl md:text-5xl font-black text-[hsl(220,20%,6%)] tracking-tight group-hover:tracking-wide transition-all duration-300">
-               9910992965
+               9650831008
               </span>
             </a>
           </div>
