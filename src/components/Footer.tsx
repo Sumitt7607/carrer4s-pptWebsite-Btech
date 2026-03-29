@@ -71,7 +71,7 @@ const Footer = () => {
             </div>
 
             {/* Faridabad */}
-            {/* <div className="rounded-xl border border-[hsl(220,10%,15%)] bg-[hsl(220,15%,9%)] p-6 hover:border-[hsl(25,95%,53%,0.4)] transition-colors duration-300 group">
+            <div className="rounded-xl border border-[hsl(220,10%,15%)] bg-[hsl(220,15%,9%)] p-6 hover:border-[hsl(25,95%,53%,0.4)] transition-colors duration-300 group">
               <div className="flex items-center gap-2 mb-3">
                 <div className="p-1.5 rounded-lg bg-[hsl(25,95%,53%,0.15)] text-[hsl(25,95%,53%)]">
                   <MapPin className="h-4 w-4" />
@@ -79,9 +79,9 @@ const Footer = () => {
                 <h3 className="font-bold text-[hsl(0,0%,95%)] text-lg">Faridabad Haryana</h3>
               </div>
               <p className="text-sm text-[hsl(0,0%,55%)] leading-relaxed group-hover:text-[hsl(0,0%,70%)] transition-colors">
-                Block E/1-58, Sec-11, Near YMCA University, Faridabad – 121006, HR
+                Block E-1/81, Sec-11,YMCA Road, Sector11, Faridabad – 121006, HR
               </p>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
